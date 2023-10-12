@@ -1,4 +1,4 @@
-# AMRBART
+# RGL-AMR
 The implementation for Findings of EMNLP2023 paper "Guiding AMR Parsing with Reverse Graph Linearization". [Paper Link]() (Arxiv). 
 
 We thank authors of [AMRBART](https://github.com/goodbai-nlp/AMRBART/tree/acl2022) for releasing their code. Our implementation is based on their repository.
