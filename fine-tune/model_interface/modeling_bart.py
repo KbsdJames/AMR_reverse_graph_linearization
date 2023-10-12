@@ -85,7 +85,10 @@ class Counter(object):
 
 @Counter
 def save_tensor(obj, cnt):
-    torch.save(obj, '/mlx_devbox/users/gbf/playground/mixed_decoder_KD_loss/fine-tune/analyze/gate_{}.pt'.format(cnt))
+    """
+    For the analysis of the gate value, you can ignore it if you don't have this requirement.
+    """
+    torch.save(obj, '/home/gbf/AMR_reverse_graph_linearization/fine-tune/analyze/gate_{}.pt'.format(cnt))
 
 def shift_tokens_right(input_ids: torch.Tensor, pad_token_id: int, decoder_start_token_id: int):
     """
@@ -532,9 +535,6 @@ class BartDecoderLayer(nn.Module):
         gate = self.fusion(hidden_states)
         hidden_states = gate * amr_hidden_states + (1 - gate) * src_hidden_states
 
-        #pdb.set_trace()
-        # save_tensor(gate, save_tensor.count)
-        #torch.save(gate, '/mlx_devbox/users/gbf/playground/mixed_decoder_KD_loss/fine-tune/analyze/gate.pt')
         hidden_states = nn.functional.dropout(hidden_states, p=self.dropout, training=self.training)
         hidden_states = residual + hidden_states
         hidden_states = self.fusion_attn_layer_norm(hidden_states)

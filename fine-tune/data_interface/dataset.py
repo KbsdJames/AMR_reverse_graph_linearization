@@ -9,8 +9,6 @@ from transformers.tokenization_utils_base import PreTrainedTokenizerBase
 from typing import Optional, Union
 from common.utils import shift_tokens_right
 
-import pdb
-
 def padding_func(features, padding_side="right", pad_token_id=1, key_list="label", pad_to_multiple_of=1, max_length=None):
     for key in key_list:
         assert key in features[0].keys(), f"{key} not in {features[0].keys()}"

@@ -502,10 +502,6 @@ def main():
             predict_dataset, metric_key_prefix="predict", max_length=max_length, num_beams=num_beams
         )
 
-        # pdb.set_trace()
-        np.save('predictions.npy', predict_results.predictions)
-        np.save('labels.npy', predict_results.label_ids)
-
         metrics = predict_results.metrics
         max_predict_samples = (
             data_args.max_predict_samples

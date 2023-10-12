@@ -1,0 +1,2188 @@
+# AMR release; corpus: bolt; section: dev; number of AMRs: 133 (generated on Fri Mar 4, 2016 at 21:04:27)
+
+# ::id bolt12_64545_0526.1 ::date 2012-12-23T18:47:13 ::annotator SDL-AMR-09 ::preferred
+# ::snt There are many who have a sense of urgency, quietly watching how things develop,you are dragons coiling, you are tigers crouching, I admire noble-minded patriots.
+# ::save-date Fri Jul 24, 2015 ::file bolt12_64545_0526_1.txt
+(m / multi-sentence
+      :snt1 (m2 / many
+            :ARG0-of (s / sense-01
+                  :ARG1 (u / urgency)
+                  :time (w / watch-01
+                        :ARG0 m2
+                        :ARG1 (t3 / thing
+                              :manner-of (d / develop-02
+                                    :ARG0 (t / thing)))
+                        :manner (q / quiet-04
+                              :ARG1 m2))))
+      :snt2 (d2 / dragon
+            :domain (y / you)
+            :ARG0-of (c / coil-01))
+      :snt3 (t2 / tiger
+            :domain (y2 / you)
+            :ARG0-of (c2 / crouch-01))
+      :snt4 (a / admire-01
+            :ARG0 (i / i)
+            :ARG1 (p / patriot
+                  :ARG0-of (m3 / mind-04
+                        :mod (n / noble)))))
+
+# ::id bolt12_64545_0526.2 ::date 2012-12-23T18:55:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt Has history given us too many lessons?, 530, 412, 64
+# ::save-date Mon Nov 25, 2013 ::file bolt12_64545_0526_2.txt
+(m2 / multi-sentence
+      :snt1 (g / give-01 :mode interrogative
+            :ARG0 (h / history)
+            :ARG1 (l / lesson
+                  :quant (m / many
+                        :degree (t / too)))
+            :ARG2 (w / we))
+      :snt2 (a / and :op1 530 :op2 412 :op2 64))
+
+# ::id bolt12_64545_0527.1 ::date 2012-12-23T18:59:06 ::annotator SDL-AMR-09 ::preferred
+# ::snt taking a look
+# ::save-date Mon Nov 25, 2013 ::file bolt12_64545_0527_1.txt
+(l / look-01)
+
+# ::id bolt12_64545_0528.1 ::date 2012-12-23T19:02:02 ::annotator SDL-AMR-09 ::preferred
+# ::snt the ones who are suffering are the ordinary people: even if the body of a salted fish is turned over, it is still a salted fish ...
+# ::save-date Mon Jan 27, 2014 ::file bolt12_64545_0528_1.txt
+(m / multi-sentence
+      :snt1 (s / suffer-01
+            :ARG0 (p / person
+                  :mod (o2 / ordinary)))
+      :snt2 (f / fish
+            :ARG1-of (s2 / salt-01)
+            :mod (s3 / still)
+            :domain f2
+            :concession (e / even-if
+                  :op1 (t / turn-01
+                        :ARG1 (b / body
+                              :poss (f2 / fish
+                                    :ARG1-of (s4 / salt-01)))
+                        :direction (o3 / over)))))
+
+# ::id bolt12_64545_0529.1 ::date 2012-12-23T19:05:48 ::annotator SDL-AMR-09 ::preferred
+# ::snt Freedom of speech\thought, if people express a view somewhat different than the traditional view, and put forward slightly different criticism, then they are called slaves of foreigners, or are accused of reverence for and fascination by foreign things,
+# ::save-date Tue Apr 28, 2015 ::file bolt12_64545_0529_1.txt
+(o / or
+      :op1 (c / call-01
+            :ARG1 (p / person)
+            :ARG2 (s / slave
+                  :poss (f / foreign)))
+      :op2 (a / accuse-01
+            :ARG1 p
+            :ARG2 (a2 / and
+                  :op1 (r / revere-01
+                        :ARG0 p
+                        :ARG1 (t / thing
+                              :mod (f3 / foreign)))
+                  :op2 (f2 / fascinate-01
+                        :ARG0 t
+                        :ARG1 p)))
+      :condition (a3 / and
+            :op1 (e / express-01
+                  :ARG0 p
+                  :ARG1 (v / view-02
+                        :ARG0 p
+                        :ARG1-of (d / differ-02
+                              :degree (s3 / somewhat)
+                              :compared-to (v2 / view-02
+                                    :mod (t2 / tradition)))))
+            :op2 (c2 / criticize-01
+                  :ARG0 p
+                  :ARG1-of (d2 / differ-02
+                        :degree (s4 / slight))))
+      :topic (f4 / free-04
+            :ARG3 (s5 / slash
+                  :op1 (s2 / speak-01)
+                  :op2 (t3 / think-01))))
+
+# ::id bolt12_64545_0529.2 ::date 2012-12-23T19:59:16 ::annotator SDL-AMR-09 ::preferred
+# ::snt What is more they are considered traitors of China, which is a fact of cultural tyranny in the cloak of nationalism and patriotism.
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64545_0529_2.txt
+(c / consider-01
+      :ARG1 (p2 / person
+            :domain (t2 / they)
+            :ARG0-of (b / betray-01
+                  :ARG1 (c2 / country :wiki "China"
+                        :name (n2 / name :op1 "China"))))
+      :mod (m / more)
+      :mod (t4 / tyrannize-01
+            :ARG2 (c3 / culture)
+            :ARG1-of (c4 / cloak-01
+                  :ARG2 (a / and
+                        :op1 (n / nationalism)
+                        :op2 (p / patriotism)))))
+
+# ::id bolt12_64545_0530.1 ::date 2012-12-23T20:12:11 ::annotator SDL-AMR-09 ::preferred
+# ::snt In fact, the US no longer needs to use force to deal with China, they have achieved the result of "defeating enemy soldiers without fighting".
+# ::save-date Thu Jul 23, 2015 ::file bolt12_64545_0530_1.txt
+(c3 / cause-01
+      :ARG0 (a2 / achieve-01
+            :ARG0 c
+            :ARG1 (r / result-01
+                  :ARG2 (d2 / defeat-01
+                        :ARG0 c
+                        :ARG1 (s / soldier
+                              :ARG0-of (h / have-rel-role-91
+                                    :ARG1 c
+                                    :ARG2 (e2 / enemy)))
+                        :manner (f3 / fight-01 :polarity -
+                              :ARG0 c))))
+      :ARG1 (n / need-01
+            :ARG0 (c / country :wiki "United_States" :name (n3 / name :op1 "US"))
+            :ARG1 (u / use-01
+                  :ARG0 c
+                  :ARG1 (f / force-04)
+                  :ARG2 (d / deal-01
+                        :ARG0 c
+                        :ARG2 (c2 / country :wiki "China" :name (n2 / name :op1 "China"))))
+            :time (n4 / no-longer)
+            :mod (i / in-fact)))
+
+# ::id bolt12_64545_0531.1 ::date 2012-12-23T20:21:33 ::annotator SDL-AMR-09 ::preferred
+# ::snt Is the article too intense, is the United States so good?
+# ::save-date Mon Dec 7, 2015 ::file bolt12_64545_0531_1.txt
+(m / multi-sentence
+      :snt1 (i / intense-02 :mode interrogative
+            :ARG1 (a / article)
+            :degree (t / too))
+      :snt2 (g / good-02 :mode interrogative
+            :ARG1 (c / country :wiki "United_States" :name (n / name :op1 "United" :op2 "States"))
+            :degree (s / so)))
+
+# ::id bolt12_64545_0531.2 ::date 2012-12-23T20:27:04 ::annotator SDL-AMR-09 ::preferred
+# ::snt If things are not seen by eyes and heard by ears yourself, do not assume their existence, three people create a tiger.
+# ::save-date Mon Nov 25, 2013 ::file bolt12_64545_0531_2.txt
+(m / multi-sentence
+      :snt1 (a / assume-02 :polarity - :mode imperative
+            :ARG0 y
+            :ARG1 (e / exist-01
+                  :ARG1 t2)
+            :condition (a2 / and
+                  :op1 (s / see-01 :polarity -
+                        :ARG0 (e2 / eye
+                              :part-of (y / you))
+                        :ARG1 (t2 / thing))
+                  :op2 (h / hear-01 :polarity -
+                        :ARG0 (e3 / ear
+                              :part-of y)
+                        :ARG1 t2)))
+      :snt2 (c / create-01
+            :ARG0 (p / person :quant 3)
+            :ARG1 (t / tiger)))
+
+# ::id bolt12_64545_0532.1 ::date 2012-12-23T20:29:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt Just passing by and taking a look. Won't express my opinion
+# ::save-date Thu May 14, 2015 ::file bolt12_64545_0532_1.txt
+(m / multi-sentence
+      :snt1 (a / and
+            :op1 (p / pass-by-17
+                  :mod (j / just))
+            :op2 (l / look-01))
+      :snt2 (e / express-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t / thing
+                  :ARG1-of (o / opine-01
+                        :ARG0 i))))
+
+# ::id bolt12_64545_0533.1 ::date 2012-12-23T20:36:41 ::annotator SDL-AMR-09 ::preferred
+# ::snt Came to study and learn
+# ::save-date Sun Dec 23, 2012 ::file bolt12_64545_0533_1.txt
+(c / come-01
+  :purpose (a / and
+             :op1 (s / study-01)
+             :op2 (l / learn-01)))
+
+# ::id bolt12_64545_0535.1 ::date 2012-12-23T20:59:07 ::annotator SDL-AMR-09 ::preferred
+# ::snt Very attractive
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64545_0535_1.txt
+(a2 / attract-01
+      :degree (v / very))
+
+# ::id bolt12_64545_0536.1 ::date 2012-12-23T21:04:04 ::annotator SDL-AMR-09 ::preferred
+# ::snt It should vigorously advocated
+# ::save-date Sun Dec 23, 2012 ::file bolt12_64545_0536_1.txt
+(r / recommend-01
+  :ARG1 (a / advocate-01
+          :ARG1 (i / it)
+          :manner (v / vigorous)))
+
+# ::id bolt12_64545_0538.1 ::date 2012-12-23T21:22:21 ::annotator SDL-AMR-09 ::preferred
+# ::snt Some people - don't forget you are Chinese; if the country needs me, I'll be compelled by my sense of righteousness!
+# ::save-date Fri Jan 16, 2015 ::file bolt12_64545_0538_1.txt
+(m / multi-sentence
+      :snt1 (f / forget-01 :polarity -
+            :ARG0 (p / person
+                  :mod (s / some))
+            :ARG1 (p2 / person
+                  :mod (c / country :wiki "China" :name (n2 / name :op1 "China"))
+                  :domain p))
+      :snt2 (c2 / compel-01
+            :ARG0 (s2 / sense-01
+                  :ARG0 i
+                  :ARG1 (r / righteousness))
+            :ARG1 (i / i)
+            :condition (n / need-01
+                  :ARG0 (c3 / country)
+                  :ARG1 i)))
+
+# ::id bolt12_64545_0538.2 ::date 2012-12-23T21:25:12 ::annotator SDL-AMR-09 ::preferred
+# ::snt I really especially hate those who are eating Chinese things and drinking Chinese things, but who say America is so whatever, those dogs, if America is so good go find your American illegitimate fathers
+# ::save-date Mon Dec 7, 2015 ::file bolt12_64545_0538_2.txt
+(m / multi-sentence
+      :snt1 (h / hate-01
+            :ARG0 (i / i)
+            :ARG1 (p / person
+                  :mod (t3 / that)
+                  :ARG0-of (e2 / eat-01
+                        :ARG1 (t2 / thing
+                              :mod (c3 / country :wiki "China" :name (n2 / name :op1 "China"))))
+                  :mod (d2 / dog
+                        :mod (t / that))
+                  :ARG0-of (d / drink-01
+                        :ARG1 t2)
+                  :ARG0-of (s / say-01
+                        :ARG1 (w / whatever
+                              :degree (s2 / so)
+                              :domain (c4 / country :wiki "United_States" :name (n / name :op1 "America")))
+                        :ARG1-of (c5 / contrast-01
+                              :ARG2 (a2 / and
+                                    :op1 e2
+                                    :op2 d))))
+            :mod (e / especially)
+            :degree (r / really))
+      :snt2 (g / go-05 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (f / find-01
+                  :ARG0 y
+                  :ARG1 (p2 / person
+                        :ARG1-of (l / legitimate-02 :polarity -)
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 y
+                              :ARG2 (f2 / father))))
+            :condition (g2 / good-02
+                  :ARG1 (c6 / country :wiki "United_States" :name (n3 / name :op1 "America"))
+                  :degree (s3 / so))))
+
+# ::id bolt12_64545_0539.1 ::date 2012-12-23T21:38:53 ::annotator SDL-AMR-09 ::preferred
+# ::snt I feel our people should learn more from the DPRK, the banner of socialism needs to be held, but Mao Zedong Thought can't be forgotten!
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64545_0539_1.txt
+(c / contrast-01
+      :ARG1 (f / feel-02
+            :ARG0 (i / i)
+            :ARG1 (a / and
+                  :op1 (r / recommend-01
+                        :ARG1 (l / learn-01
+                              :ARG0 (p / people
+                                    :poss (w / we))
+                              :ARG2 (c2 / country :wiki "North_Korea"
+                                    :name (n3 / name :op1 "DPRK"))
+                              :quant (m / more)))
+                  :op2 (n / need-01
+                        :ARG1 (h / hold-01
+                              :ARG1 (b / banner
+                                    :poss (p4 / political-movement :wiki "Socialism" :name (n4 / name :op1 "socialism")))))))
+      :ARG2 (p3 / possible-01 :polarity -
+            :ARG1 (f2 / forget-01
+                  :ARG1 (t / thing
+                        :ARG1-of (t2 / think-01
+                              :ARG0 (p2 / person :wiki "Mao_Zedong"
+                                    :name (n2 / name :op1 "Mao" :op2 "Zedong")))))))
+
+# ::id bolt12_64545_0539.2 ::date 2012-12-23T21:41:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt Only Mao Zedong Thought, can save the nation!
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0539_2.txt
+(p / possible-01
+      :ARG1 (s / save-02
+            :ARG0 (t / thing
+                  :mod (o / only)
+                  :ARG1-of (t2 / think-01
+                        :ARG0 (p2 / person :wiki "Mao_Zedong"
+                              :name (n2 / name :op1 "Mao" :op2 "Zedong"))))
+            :ARG1 (n / nation)))
+
+# ::id bolt12_64545_0540.1 ::date 2012-11-27T12:50:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt There too many traitors of China!
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0540_1.txt
+(p / person
+      :quant (m / many
+            :degree (t2 / too))
+      :ARG0-of (b / betray-01
+            :ARG1 (c / country :wiki "China"
+                  :name (n / name :op1 "China"))))
+
+# ::id bolt12_64545_0541.1 ::date 2012-11-27T12:59:37 ::annotator SDL-AMR-09 ::preferred
+# ::snt Patriotism is the bottom line. Everyone must prove worthy of the nation
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0541_1.txt
+(m / multi-sentence
+      :snt1 (l / line
+            :domain (p / patriotism)
+            :mod (b / bottom))
+      :snt2 (o / obligate-01
+            :ARG0 (e / everyone)
+            :ARG1 (p2 / prove-01
+                  :ARG0 e
+                  :ARG1 (d / deserve-01
+                        :ARG0 e
+                        :ARG1 (n / nation)))))
+
+# ::id bolt12_64545_0542.1 ::date 2012-11-27T13:19:08 ::annotator SDL-AMR-09 ::preferred
+# ::snt I think it is not those elites, but that some corrupt officials were bribed
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64545_0542_1.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (c / contrast-01
+            :ARG1 (e / elite :polarity -
+                  :mod (t2 / that))
+            :ARG2 (b / bribe-01
+                  :ARG1 (p / person
+                        :ARG1-of (c2 / corrupt-01)
+                        :quant (s / some)
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (o / official))))))
+
+# ::id bolt12_64545_0543.1 ::date 2012-11-27T13:34:28 ::annotator SDL-AMR-09 ::preferred
+# ::snt Remove this group of jerks!
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0543_1.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (g / group
+            :mod (t / this)
+            :consist-of (j / jerk)))
+
+# ::id bolt12_64545_0545.1 ::date 2012-11-27T13:36:52 ::annotator SDL-AMR-09 ::preferred
+# ::snt I'm just taking a look
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0545_1.txt
+(l / look-01
+      :ARG0 (i / i)
+      :mod (j / just))
+
+# ::id bolt12_64545_0546.1 ::date 2012-11-27T13:44:26 ::annotator SDL-AMR-09 ::preferred
+# ::snt There are so many traitors in the history of China - we need to be vigilant.
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0546_1.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (v / vigilant)
+      :ARG1-of (c / cause-01
+            :ARG0 (p / person
+                  :quant (m / many
+                        :degree (s / so))
+                  :time (h / history
+                        :poss (c2 / country :wiki "China"
+                              :name (n2 / name :op1 "China")))
+                  :ARG0-of (b / betray-01))))
+
+# ::id bolt12_64545_0546.2 ::date 2012-11-27T20:26:58 ::annotator SDL-AMR-09 ::preferred
+# ::snt With the chaos in East and North Africa, we also had no choice but to prevent the running dog traitors from colluding with Western imperialism.
+# ::save-date Tue Dec 2, 2014 ::file bolt12_64545_0546_2.txt
+(o / obligate-01
+      :ARG1 (w / we)
+      :ARG2 (p / prevent-01
+            :ARG0 w
+            :ARG1 (p2 / person
+                  :ARG0-of (r / run-02)
+                  :mod (d / dog)
+                  :ARG0-of (b / betray-01))
+            :ARG2 (c3 / collude-01
+                  :ARG0 p2
+                  :ARG1 (i / imperialism
+                        :mod (w4 / world-region :wiki "Western_world" :name (n3 / name :op1 "West")))))
+      :ARG1-of (c4 / cause-01
+            :ARG0 (c2 / chaos
+                  :location (a2 / and
+                        :op1 (w2 / world-region :wiki "East_Africa" :name (n / name :op1 "East" :op2 "Africa"))
+                        :op2 (w3 / world-region :wiki "North_Africa" :name (n2 / name :op1 "North" :op2 "Africa")))))
+      :mod (a / also))
+
+# ::id bolt12_64545_0547.1 ::date 2012-11-27T20:39:56 ::annotator SDL-AMR-09 ::preferred
+# ::snt Everything has its set number, it 's not time for a change in the weather in China, traitors can only bark madly like dogs and nothing else, can only make them disappointed.
+# ::save-date Tue Jul 28, 2015 ::file bolt12_64545_0547_1.txt
+(m3 / multi-sentence
+      :snt1 (h / have-03
+            :ARG0 (e / everything)
+            :ARG1 (n / number
+                  :ARG1-of (s / set-16)
+                  :poss e))
+      :snt2 (t / time :polarity -
+            :time-of (c / change-01
+                  :ARG1 (w / weather)
+                  :location (c2 / country :wiki "China" :name (n2 / name :op1 "China"))))
+      :snt3 (p / possible-01
+            :ARG1 (a / and
+                  :op1 (b / bark-01
+                        :ARG0 (p2 / person
+                              :ARG0-of (b2 / betray-01))
+                        :manner (m / mad-02)
+                        :mod (o / only)
+                        :ARG1-of (r / resemble-01
+                              :ARG2 (d3 / dog)))
+                  :op2 (e2 / else
+                        :mod (n3 / nothing))))
+      :snt4 (p3 / possible-01
+            :ARG1 (d2 / disappoint-01
+                  :ARG1 (t2 / they)
+                  :mod (o2 / only))))
+
+# ::id bolt12_64545_0547.2 ::date 2012-11-27T20:40:18 ::annotator SDL-AMR-09 ::preferred
+# ::snt It won't be long until people are coming from all directions to the Chinese court. Leading the world. This is the intent of heaven.
+# ::save-date Thu Dec 12, 2013 ::file bolt12_64545_0547_2.txt
+(m / multi-sentence
+      :snt2 (l / lead-02
+            :ARG1 (w / world))
+      :snt3 (i / intend-01
+            :ARG0 (h / heaven)
+            :ARG1 (t / this))
+      :snt1 (c / come-01
+            :ARG1 (p / person)
+            :ARG3 (d / direction
+                  :mod (a / all))
+            :ARG4 (c2 / court
+                  :mod (c3 / country :wiki "China"
+                        :name (n / name :op1 "China")))
+            :time (b / before
+                  :op1 (l2 / long :polarity -))))
+
+# ::id bolt12_64545_0548.1 ::date 2012-11-27T20:50:01 ::annotator SDL-AMR-09 ::preferred
+# ::snt Following with interest.
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0548_1.txt
+(f / follow-02
+      :manner (i / interest-01))
+
+# ::id bolt12_64545_0550.1 ::date 2012-11-27T20:51:32 ::annotator SDL-AMR-09 ::preferred
+# ::snt This just is a specialty of modern China there's nothing we can do
+# ::save-date Fri Jul 24, 2015 ::file bolt12_64545_0550_1.txt
+(a / and
+      :op1 (s / specialize-01
+            :ARG0 (c2 / country :wiki "China" :name (n2 / name :op1 "China")
+                  :ARG1-of (m / modern-02))
+            :ARG1 (t2 / this)
+            :mod (j2 / just))
+      :op2 (p / possible-01
+            :ARG1 (d / do-02
+                  :ARG0 (w / we)
+                  :ARG1 (n / nothing))))
+
+# ::id bolt12_64545_0551.1 ::date 2012-11-28T03:32:13 ::annotator SDL-AMR-09 ::preferred
+# ::snt There are too many traitors among our compatriots,
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0551_1.txt
+(i / include-91
+      :ARG1 (p / person
+            :quant (m / many
+                  :degree (t2 / too))
+            :ARG0-of (b / betray-01))
+      :ARG2 (c / compatriot
+            :poss (w / we)))
+
+# ::id bolt12_64545_0552.1 ::date 2012-11-28T03:32:06 ::annotator SDL-AMR-09 ::preferred
+# ::snt Freedom of speech is relative. We need take national conditions into account.
+# ::save-date Thu Dec 17, 2015 ::file bolt12_64545_0552_1.txt
+(m / multi-sentence
+      :snt1 (r / relative-05
+            :ARG1 (f / free-04
+                  :ARG3 (s2 / speak-01)))
+      :snt2 (n / need-01
+            :ARG0 (w / we)
+            :ARG1 (a / account-01
+                  :ARG0 w
+                  :ARG1 (c / condition
+                        :mod (n2 / nation)))))
+
+# ::id bolt12_64545_0553.1 ::date 2012-11-28T03:48:43 ::annotator SDL-AMR-09 ::preferred
+# ::snt Freedom of speech\thought, if people express a view somewhat different than the traditional view, and put forward slightly different criticism, then they are called slaves of foreigners, or are accused of reverence for and fascination by foreign things,
+# ::save-date Thu Dec 17, 2015 ::file bolt12_64545_0553_1.txt
+(m / multi-sentence
+      :snt1 (f / free-04
+            :ARG3 (s5 / slash
+                  :op1 (s4 / speak-01)
+                  :op2 (t3 / think-01)))
+      :snt2 (o / or
+            :op1 (c / call-01
+                  :ARG1 p2
+                  :ARG2 (s3 / slave
+                        :poss (f2 / foreign)))
+            :op2 (a2 / accuse-01
+                  :ARG1 p2
+                  :ARG2 (a4 / and
+                        :op1 (r / revere-01
+                              :ARG0 p2
+                              :ARG1 (t2 / thing
+                                    :mod (f3 / foreign)))
+                        :op2 (f4 / fascinate-01
+                              :ARG0 t2
+                              :ARG1 p2)))
+            :condition (a3 / and
+                  :op1 (e / express-01
+                        :ARG0 (p2 / person)
+                        :ARG1 (v3 / view-02
+                              :ARG1-of (d / differ-02
+                                    :ARG1 (v2 / view-02
+                                          :mod (t / tradition))
+                                    :degree (s / somewhat))))
+                  :op2 (p / put-02
+                        :ARG0 p2
+                        :ARG1 (c2 / criticize-01
+                              :ARG0 p2
+                              :ARG1-of (d2 / differ-02
+                                    :degree (s2 / slight)))))))
+
+# ::id bolt12_64545_0553.2 ::date 2012-11-28T03:48:55 ::annotator SDL-AMR-09 ::preferred
+# ::snt to the person who said this I'd like to ask which one of those mentioned above is your dad
+# ::save-date Wed Apr 30, 2014 ::file bolt12_64545_0553_2.txt
+(l / like-02
+      :ARG0 (i / i)
+      :ARG1 (a / ask-01
+            :ARG0 i
+            :ARG1 (p4 / person
+                  :domain (p2 / person
+                        :ARG1-of (i2 / include-91
+                              :ARG2 (p3 / person
+                                    :mod (t2 / that)
+                                    :ARG1-of (m / mention-01
+                                          :location (a3 / above)))))
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 p
+                        :ARG2 (d / dad)))
+            :ARG2 (p / person
+                  :ARG0-of (s / say-01
+                        :ARG1 (t / this)))))
+
+# ::id bolt12_64545_0554.1 ::date 2012-11-29T16:12:56 ::annotator SDL-AMR-09 ::preferred
+# ::snt For fans of military affairs, fascinated with armaments, fascinated with military clothing qualities, those who wanted to become soldiers but for various reasons did not succeed, we welcome you to join Military Fans' Alliance, qq group 181729561. Those who enter the group must adhere to the system within the group - be patriotic, must modify your group business card to be consistent with the format of other people's. This group only permits males the enter, if you don't conform, don't ally together with us, don't follow the system within the group, we will ask you to please voluntarily leave the group.
+# ::save-date Wed Jan 20, 2016 ::file bolt12_64545_0554_1.txt
+(m / multi-sentence
+      :snt2 (o2 / obligate-01
+            :ARG1 (p3 / person
+                  :ARG0-of (e / enter-01
+                        :ARG1 (g3 / group)))
+            :ARG2 (a4 / and
+                  :op1 (a5 / adhere-01
+                        :ARG0 p3
+                        :ARG2 (s2 / system
+                              :location g3))
+                  :op2 (p / patriotic
+                        :domain p3)
+                  :op3 (m3 / modify-01
+                        :ARG0 p3
+                        :ARG1 (c2 / card
+                              :mod (g4 / group)
+                              :mod (b2 / business)
+                              :poss p3)
+                        :ARG2 (c3 / consistent-01
+                              :ARG1 c2
+                              :ARG2 (f2 / format
+                                    :poss (p5 / person
+                                          :mod (o3 / other)))))))
+      :snt3 (p2 / permit-01
+            :ARG0 (g2 / group
+                  :mod (t / this))
+            :ARG1 (e2 / enter-01
+                  :ARG0 (m2 / male)
+                  :ARG1 g2)
+            :mod (o / only)
+            :ARG0-of (c8 / cause-01
+                  :ARG1 (a / ask-02
+                        :ARG0 (w3 / we)
+                        :ARG1 (l / leave-11 :polite +
+                              :ARG0 y2
+                              :ARG1-of (v / volunteer-01
+                                    :ARG0 y2))
+                        :ARG2 (y2 / you)
+                        :condition (a2 / and
+                              :op1 (c / conform-01 :polarity -
+                                    :ARG1 y2)
+                              :op2 (a3 / ally-01 :polarity -
+                                    :ARG1 y2
+                                    :ARG2 w3)
+                              :op3 (f / follow-02 :polarity -
+                                    :ARG0 y2
+                                    :ARG1 (s / system
+                                          :location g2))))))
+      :snt1 (s5 / say-01
+            :ARG1 (w / welcome-01
+                  :ARG0 (w2 / we)
+                  :ARG1 f4
+                  :ARG2 (j / join-01
+                        :ARG0 f4
+                        :ARG1 (o4 / organization :wiki -
+                              :name (n / name :op1 "Military" :op2 "Fans'" :op3 "Alliance")
+                              :ARG0-of (h2 / have-03
+                                    :ARG1 (n2 / number :value 181729561
+                                          :mod (g5 / group)
+                                          :mod (p4 / product :wiki "Tencent_QQ"
+                                                :name (n3 / name :op1 "QQ")))))))
+            :ARG2 (f4 / fan
+                  :topic (a8 / affair-02
+                        :ARG2 (m5 / military))
+                  :ARG1-of (f3 / fascinate-01
+                        :ARG0 (a6 / and
+                              :op1 (a7 / armament)
+                              :op2 (q / quality
+                                    :mod (c4 / clothing
+                                          :mod (m4 / military)))))
+                  :ARG0-of (w4 / want-01
+                        :ARG1 (b3 / become-01
+                              :ARG1 (y / you)
+                              :ARG2 (s4 / soldier))
+                        :ARG1-of (c7 / contrast-01
+                              :ARG2 (s3 / succeed-01 :polarity -
+                                    :ARG0 y
+                                    :ARG1 b3
+                                    :ARG1-of (c6 / cause-01
+                                          :ARG0 (r / reason
+                                                :mod (v2 / various)))))))))
+
+# ::id bolt12_64545_0555.1 ::date 2012-11-29T16:13:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt Support, bump
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64545_0555_1.txt
+(a / and
+      :op1 (s / support-01)
+      :op2 (b / bump-02))
+
+# ::id bolt12_64545_0556.1 ::date 2012-11-28T03:49:49 ::annotator SDL-AMR-09 ::preferred
+# ::snt In critical moments, we are all descendants of Yan emperor and Huang emperor.
+# ::save-date Wed Jun 24, 2015 ::file bolt12_64545_0556_1.txt
+(d / descend-01
+      :ARG0 (w / we
+            :mod (a / all))
+      :source (a2 / and
+            :op1 (p / person :wiki "Yan_Emperor" :name (n / name :op1 "Yan")
+                  :ARG0-of (h / have-org-role-91
+                        :ARG2 (e / emperor)))
+            :op2 (p2 / person :wiki "Murong_Huang" :name (n2 / name :op1 "Huang")
+                  :ARG0-of h))
+      :time (m / moment
+            :ARG1-of (c / critical-02)))
+
+# ::id bolt12_64545_0556.2 ::date 2012-11-28T03:55:21 ::annotator SDL-AMR-09 ::preferred
+# ::snt Look at the Kuomintang-Communist cooperation of those years and you will know ...
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64545_0556_2.txt
+(a / and
+      :op1 (l / look-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (c / cooperate-01
+                  :ARG0 (p / political-party :wiki "Kuomintang"
+                        :name (n / name :op1 "Kuomintang"))
+                  :ARG1 (p2 / political-party :wiki "Communist_Party_of_China"
+                        :name (n2 / name :op1 "Communist"))
+                  :time (y2 / year
+                        :mod (t / that))))
+      :op2 (k / know-01
+            :ARG0 y))
+
+# ::id bolt12_64545_0556.3 ::date 2012-11-28T04:06:41 ::annotator SDL-AMR-09 ::preferred
+# ::snt In the peaceful years, creating a ruckus doesn't influence everybody cooperating when it's time for war ...
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64545_0556_3.txt
+(i / influence-01 :polarity -
+      :ARG0 (c / create-01
+            :ARG1 (r / ruckus))
+      :ARG2 (c2 / cooperate-01
+            :ARG1 (e / everybody)
+            :time (w / war))
+      :time (y / year
+            :mod (p / peaceful)))
+
+# ::id bolt12_64545_0557.1 ::date 2012-11-28T04:30:55 ::annotator SDL-AMR-09 ::preferred
+# ::snt It can compete with articles from the Cultural Revolution, magnifying a problem to become a question of principle or of ideological line, buttoning the hat.
+# ::save-date Thu Dec 12, 2013 ::file bolt12_64545_0557_1.txt
+(p3 / possible-01
+      :ARG1 (c / compete-01
+            :ARG0 (i / it)
+            :ARG1 (a / article
+                  :source (e / event :wiki "Cultural_Revolution"
+                        :name (n / name :op1 "Cultural" :op2 "Revolution")))
+            :manner (m / magnify-01
+                  :ARG0 i
+                  :ARG1 (p / problem)
+                  :purpose (b / become-01
+                        :ARG1 p
+                        :ARG2 (q / question
+                              :topic (o / or
+                                    :op1 (p2 / principle)
+                                    :op2 (l / line
+                                          :mod (i2 / ideology))))))
+            :manner (b2 / button-01
+                  :ARG0 i
+                  :ARG1 (h / hat))))
+
+# ::id bolt12_64545_0558.1 ::date 2012-11-28T07:49:33 ::annotator SDL-AMR-09 ::preferred
+# ::snt the fifth column will make those with vested interests in the Communist Party terrified, it's a good thing
+# ::save-date Thu Nov 5, 2015 ::file bolt12_64545_0558_1.txt
+(t / terrify-01
+      :ARG0 (c / column
+            :ord (o / ordinal-entity :value 5))
+      :ARG1 (p / person
+            :ARG1-of (i / interest-01
+                  :ARG2 (p2 / political-party :wiki "Communist_Party_of_China" :name (n / name :op1 "Communist" :op2 "Party"))
+                  :ARG2-of (v / vest-01)))
+      :mod (t2 / thing
+            :ARG1-of (g / good-02)))
+
+# ::id bolt12_64545_0559.1 ::date 2012-11-28T07:58:04 ::annotator SDL-AMR-09 ::preferred
+# ::snt If you want to destroy a people, first of all is his national culture, whose tool is language and writing. Currently the one which everyone who is going to the next grade or entering a higher school must all be tested on is English-
+# ::save-date Thu Feb 25, 2016 ::file bolt12_64545_0559_1.txt
+(m / multi-sentence
+      :snt1 (c2 / culture
+            :poss p
+            :mod (n3 / nation)
+            :poss-of (t2 / tool
+                  :domain (a / and
+                        :op1 (l2 / language)
+                        :op2 (w2 / write-01)))
+            :mod (f / first-of-all)
+            :condition (w / want-01
+                  :ARG0 (y / you)
+                  :ARG1 (d / destroy-01
+                        :ARG0 y
+                        :ARG1 (p / people))))
+      :snt2 (o / obligate-01
+            :ARG1 (t / test-01
+                  :ARG1 (o2 / or
+                        :op1 (e / everyone
+                              :ARG1-of (g / go-01
+                                    :ARG4 (g2 / grade
+                                          :mod (n2 / next))))
+                        :op2 (e3 / everyone
+                              :ARG0-of (e2 / enter-01
+                                    :ARG1 (s / school
+                                          :mod (h / high
+                                                :degree (m2 / more)))))
+                        :mod (a3 / all))
+                  :ARG2 (l / language :wiki "English_language" :name (n / name :op1 "English"))
+                  :time (c / current))))
+
+# ::id bolt12_64545_0559.2 ::date 2012-11-28T08:30:58 ::annotator SDL-AMR-09 ::preferred
+# ::snt -turn
+# ::save-date Tue Nov 26, 2013 ::file bolt12_64545_0559_2.txt
+(t / turn-01)
+
+# ::id bolt12_64545_0560.1 ::date 2012-11-28T08:32:57 ::annotator SDL-AMR-09 ::preferred
+# ::snt you are a dragon coiling, you are a tiger crouching, it makes sense, wait for the opportunity
+# ::save-date Tue May 5, 2015 ::file bolt12_64545_0560_1.txt
+(m2 / multi-sentence
+      :snt1 (a / and
+            :op1 (d / dragon
+                  :ARG1-of (c2 / coil-01)
+                  :domain (y2 / you))
+            :op2 (t / tiger
+                  :ARG0-of (c3 / crouch-01)
+                  :domain y2))
+      :snt2 (s2 / sense-02
+            :ARG1 (i / it))
+      :snt3 (w / wait-01 :mode imperative
+            :ARG1 (y / you)
+            :ARG2 (o / opportunity)))
+
+# ::id bolt12_64545_0561.1 ::date 2012-11-28T08:36:37 ::annotator SDL-AMR-09 ::preferred
+# ::snt In fact, US no longer needs to use force to deal with China, they have reached a result of "defeating enemy soldiers without fighting" ...
+# ::save-date Thu Jul 23, 2015 ::file bolt12_64545_0561_1.txt
+(c3 / cause-01
+      :ARG0 (r2 / reach-01
+            :ARG0 c
+            :ARG1 (r / result-01
+                  :ARG2 (d2 / defeat-01
+                        :ARG0 c
+                        :ARG1 (s / soldier
+                              :ARG0-of (h / have-rel-role-91
+                                    :ARG1 c
+                                    :ARG2 (e / enemy)))
+                        :manner (f3 / fight-01 :polarity -
+                              :ARG0 c))))
+      :ARG1 (n / need-01
+            :ARG0 (c / country :wiki "United_States" :name (n3 / name :op1 "US"))
+            :ARG1 (u / use-01
+                  :ARG0 c
+                  :ARG1 (f / force-04)
+                  :ARG2 (d / deal-01
+                        :ARG0 c
+                        :ARG2 (c2 / country :wiki "China" :name (n2 / name :op1 "China"))))
+            :time (n4 / no-longer)
+            :mod (i / in-fact)))
+
+# ::id bolt12_64545_0561.2 ::date 2012-11-28T08:37:02 ::annotator SDL-AMR-09 ::preferred
+# ::snt Yes. There are many slaves of foreigners. It's time we should renovate!
+# ::save-date Thu Dec 18, 2014 ::file bolt12_64545_0561_2.txt
+(m / multi-sentence
+      :snt1 (y / yes)
+      :snt2 (s / slave
+            :quant (m2 / many)
+            :poss (f / foreign))
+      :snt3 (t / time
+            :time-of (r / recommend-01
+                  :ARG1 (r2 / renovate-01
+                        :ARG0 (w / we)))))
+
+# ::id bolt12_64545_0562.1 ::date 2012-11-28T08:48:01 ::annotator SDL-AMR-09 ::preferred
+# ::snt The ruling authorities actually should pay attention to these kinds of capitulators and traitors of China! Comrade Deng Xiaoping once said that the Communist Party will not be overthrown - if it falls, it will be brought down from within the party itself. Former US Ambassador to China Mr. Huntsman once said in a speech in the US: we will raise eight hundred thousand spokespeople in China, let the Chinese themselves topple China - and the CIA then used an annual eight million yuan subsidy to help these domestic so-called elite, vowing that they want to let them raise the wind to make waves domestically, citizens definitely need to be alert for this and cannot let outsiders use us.
+# ::save-date Thu Feb 11, 2016 ::file bolt12_64545_0562_1.txt
+(m / multi-sentence
+      :snt1 (r / recommend-01
+            :ARG1 (a2 / attend-02
+                  :ARG0 (a12 / authority
+                        :ARG0-of (r2 / rule-03))
+                  :ARG1 (p / person
+                        :ARG0-of (c11 / capitulate-01)
+                        :ARG0-of (b2 / betray-01
+                              :ARG1 (c2 / country :wiki "China" :name (n / name :op1 "China")))
+                        :mod (k / kind
+                              :mod (t7 / this))))
+            :ARG1-of (a4 / actual-02))
+      :snt2 (s / say-01
+            :ARG0 (p4 / person :wiki "Deng_Xiaoping" :name (n3 / name :op1 "Deng" :op2 "Xiaoping")
+                  :ARG0-of (h3 / have-rel-role-91
+                        :ARG2 (c3 / comrade)))
+            :ARG1 (a / and
+                  :op1 (o2 / overthrow-01 :polarity -
+                        :ARG1 (p3 / political-party :wiki "Communist_Party_of_China" :name (n4 / name :op1 "Communist" :op2 "Party")))
+                  :op2 (b / bring-down-03
+                        :ARG1 p3
+                        :source p3
+                        :condition (f / fall-05
+                              :ARG1 p3)))
+            :time (o / once))
+      :snt3 (a13 / and
+            :op1 (s2 / say-01
+                  :ARG0 (p6 / person :wiki "Jon_Huntsman,_Jr." :name (n5 / name :op1 "Mr." :op2 "Huntsman")
+                        :ARG0-of (h2 / have-org-role-91
+                              :ARG1 (c / country :wiki "United_States" :name (n2 / name :op1 "US"))
+                              :ARG2 (a5 / ambassador)
+                              :location (c5 / country :wiki "China" :name (n6 / name :op1 "China"))
+                              :time (f2 / former)))
+                  :ARG1 (a6 / and
+                        :op1 (r3 / raise-01
+                              :ARG0 (w / we)
+                              :ARG1 (s7 / spokesperson :quant 800000
+                                    :location c5))
+                        :op2 (t3 / topple-01 :mode imperative
+                              :ARG0 (p5 / person
+                                    :mod c5)
+                              :ARG1 c5))
+                  :time (o3 / once)
+                  :medium (s3 / speech
+                        :location c))
+            :op2 (a7 / and
+                  :op1 (u3 / use-01
+                        :ARG0 (g / government-organization :wiki "Central_Intelligence_Agency" :name (n10 / name :op1 "CIA"))
+                        :ARG1 (s4 / subsidy
+                              :mod (r5 / rate-entity-91
+                                    :ARG1 (m2 / monetary-quantity :quant 8000000
+                                          :unit (y / yuan))
+                                    :ARG2 (t / temporal-quantity :quant 1
+                                          :unit (y2 / year))))
+                        :ARG2 (h / help-01
+                              :ARG0 g
+                              :ARG1 (e2 / elite
+                                    :mod (d / domestic)
+                                    :ARG1-of (c10 / call-01
+                                          :mod (s6 / so))))
+                        :time (t2 / then))
+                  :op2 (v / vow-01
+                        :ARG0 g
+                        :ARG1 (w2 / want-01
+                              :ARG0 g
+                              :ARG1 (a9 / allow-01
+                                    :ARG0 g
+                                    :ARG1 (a8 / and
+                                          :op1 (r4 / raise-01
+                                                :ARG0 e2
+                                                :ARG1 (w3 / wind)
+                                                :purpose (m3 / make-01
+                                                      :ARG0 g
+                                                      :ARG1 (w4 / wave)
+                                                      :location (d2 / domestic)))))))))
+      :snt4 (n7 / need-01
+            :ARG0 (c9 / citizen)
+            :ARG1 (a3 / and
+                  :op1 (a10 / alert-01
+                        :ARG1 c9
+                        :ARG2 (t6 / this))
+                  :op2 (l / let-01 :polarity -
+                        :ARG0 c9
+                        :ARG1 (u / use-01
+                              :ARG0 (o5 / outsider)
+                              :ARG1 (w5 / we))))
+            :mod (d3 / definite)))
+
+# ::id bolt12_64545_0563.1 ::date 2012-11-28T08:51:04 ::annotator SDL-AMR-09 ::preferred
+# ::snt I have reasons to say this: these last several days I have seen the suggestions given by the experts - with a glimpse I see they are disciples of Wang Jingwei!
+# ::save-date Sat May 10, 2014 ::file bolt12_64545_0563_1.txt
+(r / reason
+      :ARG0-of (c2 / cause-01
+            :ARG1 (s / say-01
+                  :ARG0 (i / i)
+                  :ARG1 (a / and
+                        :op1 (s2 / see-01
+                              :ARG0 i
+                              :ARG1 (t3 / thing
+                                    :ARG1-of (s5 / suggest-01
+                                          :ARG0 (p2 / person
+                                                :ARG1-of (e3 / expert-01))))
+                              :time (b / before
+                                    :op1 (n2 / now)
+                                    :duration (s6 / several
+                                          :op1 (t4 / temporal-quantity :quant 1
+                                                :unit (d2 / day)))))
+                        :op2 (s4 / see-01
+                              :ARG0 i
+                              :ARG1 (d / disciple
+                                    :poss (p / person :wiki "Wang_Jingwei"
+                                          :name (n / name :op1 "Wang" :op2 "Jingwei"))
+                                    :domain p2)
+                              :manner (g2 / glimpse-01
+                                    :ARG0 i))))))
+
+# ::id bolt12_64545_0564.1 ::date 2012-11-28T12:34:00 ::annotator SDL-AMR-09 ::preferred
+# ::snt Western society allows these people to see the dawn of fairness and justice of democracy.
+# ::save-date Wed Jan 20, 2016 ::file bolt12_64545_0564_1.txt
+(a / allow-01
+      :ARG0 (s / society
+            :mod (w2 / world-region :wiki "Western_world" :name (n / name :op1 "West")))
+      :ARG1 (s2 / see-01
+            :ARG0 (p / person
+                  :mod (t / this))
+            :ARG1 (d / dawn-02
+                  :ARG1 (a2 / and
+                        :op1 (f / fair-01
+                              :ARG1 (d2 / democracy))
+                        :op2 (j / justice
+                              :domain d2)))))
+
+# ::id bolt12_64545_0564.2 ::date 2012-11-28T12:38:08 ::annotator SDL-AMR-09 ::preferred
+# ::snt The domestic political development is truly too slow, being criticized by people whose ideology is a bit advanced is inevitable. Can we blame others for this?
+# ::save-date Thu Feb 4, 2016 ::file bolt12_64545_0564_2.txt
+(m / multi-sentence
+      :snt1 (c2 / cause-01
+            :ARG0 (s / slow-05
+                  :ARG1 (d / develop-02
+                        :ARG1 (p / politics)
+                        :location (d2 / domestic))
+                  :degree (t / too)
+                  :ARG1-of (t2 / true-01))
+            :ARG1 (p4 / possible-01 :polarity -
+                  :ARG1 (a / avoid-01
+                        :ARG1 (c / criticize-01
+                              :ARG0 (p3 / person
+                                    :poss-of (i / ideology
+                                          :ARG1-of (a2 / advanced-02
+                                                :degree (b2 / bit))))
+                              :ARG1 d))))
+      :snt2 (p2 / possible-01 :mode interrogative
+            :ARG1 (b / blame-01
+                  :ARG0 (w / we)
+                  :ARG1 (o / other)
+                  :ARG2 (t3 / this))))
+
+# ::id bolt12_64545_0564.3 ::date 2012-11-28T13:17:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt Saying that someone is bribed is improper?
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64545_0564_3.txt
+(p / proper :polarity - :mode interrogative
+      :domain (s / say-01
+            :ARG1 (b / bribe-01
+                  :ARG1 (s2 / someone))))
+
+# ::id bolt12_64545_0564.4 ::date 2012-11-28T13:19:25 ::annotator SDL-AMR-09 ::preferred
+# ::snt People are all selfish, reality also is often gray.
+# ::save-date Sat Jul 25, 2015 ::file bolt12_64545_0564_4.txt
+(a3 / and
+      :op1 (s / selfish
+            :domain (p / person
+                  :mod (a / all)))
+      :op2 (g / gray-02
+            :ARG1 (r / reality)
+            :frequency (o / often)
+            :mod (a2 / also)))
+
+# ::id bolt12_64545_0564.5 ::date 2012-11-28T13:19:40 ::annotator SDL-AMR-09 ::preferred
+# ::snt Some propaganda activities of ZF have soon become viewed as jokes by the people.
+# ::save-date Mon Jul 6, 2015 ::file bolt12_64545_0564_5.txt
+(b / become-01
+      :ARG1 a
+      :ARG2 (v / view-02
+            :ARG0 (p2 / person)
+            :ARG1 (a / activity-06
+                  :ARG0 (o / organization :wiki - :name (n / name :op1 "ZF"))
+                  :ARG1 (p / propaganda)
+                  :quant (s / some))
+            :ARG2 (t / thing
+                  :ARG2-of (j / joke-01)))
+      :time (s2 / soon))
+
+# ::id bolt12_64545_0564.6 ::date 2012-11-28T19:05:18 ::annotator SDL-AMR-09 ::preferred
+# ::snt In this environment, what's wrong if they criticize the previous stupefying propaganda a bit?
+# ::save-date Sat Apr 25, 2015 ::file bolt12_64545_0564_6.txt
+(w / wrong-02
+      :ARG1 (a2 / amr-unknown)
+      :ARG2 (c / criticize-01
+            :ARG0 (t / they)
+            :ARG1 (p / propaganda
+                  :time (p2 / previous)
+                  :ARG1-of (s / stupefy-01))
+            :degree (b / bit))
+      :location (e / environment
+            :mod (t2 / this)))
+
+# ::id bolt12_64545_0564.7 ::date 2012-11-28T19:09:45 ::annotator SDL-AMR-09 ::preferred
+# ::snt We can't look over the old accounts of the previous so-called anti-Japanese war.
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64545_0564_7.txt
+(p / possible-01 :polarity -
+      :ARG1 (l / look-over-06
+            :ARG0 (w / we)
+            :ARG1 (a / account-01
+                  :ARG1 (w2 / war-01
+                        :ARG1 (c2 / country :wiki "Japan"
+                              :name (n2 / name :op1 "Japan"))
+                        :time (p2 / previous)
+                        :ARG1-of (c / call-01
+                              :mod (s / so)))
+                  :mod (o / old))))
+
+# ::id bolt12_64545_0564.8 ::date 2012-11-28T19:24:46 ::annotator SDL-AMR-09 ::preferred
+# ::snt Take a look at North Korea, that's our country many years ago. Take a look at their ridiculous propaganda.
+# ::save-date Sun Jul 26, 2015 ::file bolt12_64545_0564_8.txt
+(m / multi-sentence
+      :snt1 (l / look-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (c / country :wiki "North_Korea" :name (n / name :op1 "North" :op2 "Korea")
+                  :ARG1-of (r2 / resemble-01
+                        :ARG2 (c2 / country
+                              :poss (w / we)
+                              :time (b / before
+                                    :op1 (n2 / now)
+                                    :quant (m2 / many
+                                          :op1 (t2 / temporal-quantity :quant 1
+                                                :unit (y3 / year))))))))
+      :snt2 (l2 / look-01 :mode imperative
+            :ARG0 (y2 / you)
+            :ARG1 (p / propaganda
+                  :ARG1-of (r / ridiculous-02)
+                  :poss (t / they))))
+
+# ::id bolt12_64545_0565.1 ::date 2012-11-28T19:28:38 ::annotator SDL-AMR-09 ::preferred
+# ::snt The United States' dream of occupying the whole world has never stopped, it is constantly being planned.
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64545_0565_1.txt
+(a / and
+      :op1 (s / stop-01 :polarity -
+            :ARG1 (d / dream-01
+                  :ARG0 (c / country :wiki "United_States"
+                        :name (n / name :op1 "United" :op2 "States"))
+                  :ARG1 (o / occupy-01
+                        :ARG0 c
+                        :ARG1 (w / world
+                              :mod (w2 / whole))))
+            :time (e / ever))
+      :op2 (p / plan-01
+            :ARG1 d
+            :manner (c2 / constant)))
+
+# ::id bolt12_6454_5051.1 ::date 2012-12-19T14:16:08 ::annotator SDL-AMR-09 ::preferred
+# ::snt These days, there's a kind of feeling that's more and more intense: It's that America, through long-term bribing of the Chinese intellectual elite has already succeeded in setting up a "fifth column".
+# ::save-date Mon Nov 2, 2015 ::file bolt12_6454_5051_1.txt
+(m / multi-sentence
+      :snt2 (s / succeed-01
+            :ARG0 (c / country :wiki "United_States" :name (n2 / name :op1 "America"))
+            :ARG1 (s2 / set-up-03
+                  :ARG1 (c2 / column
+                        :mod (o / ordinal-entity :value 5)))
+            :manner (b / bribe-01
+                  :ARG1 (e / elite
+                        :mod (i3 / intellectual)
+                        :mod (c3 / country :wiki "China" :name (n / name :op1 "China")))
+                  :ARG1-of (l / long-03))
+            :time (a / already))
+      :snt1 (t2 / thing
+            :ARG1-of (f / feel-01)
+            :mod (k / kind)
+            :ARG1-of (i / intense-02
+                  :degree (m2 / more-and-more))
+            :time (d / day
+                  :mod (t / this))))
+
+# ::id bolt12_6454_5051.2 ::date 2012-12-19T14:18:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt These people may consider themselves to be culture celebrities or may be of high authority and important position, and are distributed in various circles in society, taking great pains to promote American values* and brainwash the Chinese people on behalf of the Americans.
+# ::save-date Sun Jul 26, 2015 ::file bolt12_6454_5051_2.txt
+(a / and
+      :op1 (o / or
+            :op1 (p / possible-01
+                  :ARG1 (c / consider-02
+                        :ARG0 (p2 / person
+                              :mod (t / this))
+                        :ARG1 p2
+                        :ARG2 (c2 / celebrity
+                              :mod (c3 / culture))))
+            :op2 (p3 / possible-01
+                  :ARG1 (h / have-03
+                        :ARG0 p2
+                        :ARG1 (a2 / and
+                              :op1 (a3 / authority
+                                    :ARG1-of (h2 / high-02))
+                              :op2 (p4 / position
+                                    :mod (i / important))))))
+      :op2 (d / distribute-01
+            :ARG1 p2
+            :location (c4 / circle
+                  :mod (v / various)
+                  :location (s / society)))
+      :op3 (t2 / take-01
+            :ARG0 p2
+            :ARG1 (p5 / pain
+                  :degree (g / great))
+            :purpose (a4 / and
+                  :op1 (p6 / promote-02
+                        :ARG0 p2
+                        :ARG1 (v2 / value
+                              :mod (c5 / country :wiki "United_States" :name (n2 / name :op1 "America"))))
+                  :op2 (b / brainwash-01
+                        :ARG0 p2
+                        :ARG1 (p7 / person
+                              :mod (c6 / country :wiki "China" :name (n / name :op1 "China")))
+                        :prep-on-behalf-of (p8 / person
+                              :mod c5)))))
+
+# ::id bolt12_6454_5051.3 ::date 2012-12-20T07:01:29 ::annotator SDL-AMR-09 ::preferred
+# ::snt Why is this kind of feeling getting more and more intense?
+# ::save-date Tue Nov 3, 2015 ::file bolt12_6454_5051_3.txt
+(c / cause-01
+      :ARG0 (a2 / amr-unknown)
+      :ARG1 (i / intensify-01
+            :ARG1 (t / thing
+                  :ARG1-of (f / feel-01)
+                  :mod (k / kind
+                        :mod (t2 / this)))
+            :degree (m3 / more-and-more)))
+
+# ::id bolt12_6454_5051.4 ::date 2012-12-20T07:35:06 ::annotator SDL-AMR-09 ::preferred
+# ::snt Because these days, I've been reading part of the "Specialist Professor" blog, it would have been okay if I didn't read it, but after I read it, it made me really surprised.
+# ::save-date Fri Jul 24, 2015 ::file bolt12_6454_5051_4.txt
+(m2 / multi-sentence
+      :snt1 (c2 / cause-01
+            :ARG0 (r / read-01
+                  :ARG0 (i / i)
+                  :ARG1 (p / part
+                        :part-of (b / blog :wiki - :name (n / name :op1 "Specialist" :op2 "Professor"))))
+            :time (d / day
+                  :mod (t / this)))
+      :snt2 (c / contrast-01
+            :ARG1 (o / okay-04
+                  :ARG1 (r2 / read-01 :polarity -
+                        :ARG0 (i3 / i)
+                        :ARG1 (i2 / it)))
+            :ARG2 (s / surprise-01
+                  :ARG0 i2
+                  :ARG1 i3
+                  :degree (r3 / really)
+                  :time (a / after
+                        :op1 r2))))
+
+# ::id bolt12_6454_5051.5 ::date 2012-12-20T07:51:57 ::annotator SDL-AMR-09 ::preferred
+# ::snt For example, Assistant Professor Zhang Ming of Renmin University, the political intentions of many of his blogs are extremely obvious.
+# ::save-date Thu Oct 8, 2015 ::file bolt12_6454_5051_5.txt
+(e3 / exemplify-01
+      :ARG0 (p2 / person :wiki - :name (n / name :op1 "Zhang" :op2 "Ming")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (u / university :wiki "Renmin_University_of_China" :name (n2 / name :op1 "Renmin" :op2 "University"))
+                  :ARG2 (p / professor
+                        :mod (a / assistant))))
+      :ARG1 (o / obvious-01
+            :ARG1 (t / thing
+                  :ARG1-of (i / intend-01
+                        :ARG0 (b2 / blog
+                              :ARG1-of (i3 / include-91
+                                    :ARG2 (b / blog
+                                          :poss p2))
+                              :quant (m / many)))
+                  :mod (p3 / politics))
+            :degree (e2 / extreme)))
+
+# ::id bolt12_6454_5051.6 ::date 2012-12-20T07:53:41 ::annotator SDL-AMR-09 ::preferred
+# ::snt Such as, in one blog he attributed the reason for the prevalence of hostility in China to elementary school textbooks having "Wang Erxiao", and he disparaged good articles that promote patriotism as not even worth a penny.
+# ::save-date Wed Jan 20, 2016 ::file bolt12_6454_5051_6.txt
+(e3 / exemplify-01
+      :ARG0 (a / and
+            :op1 (a2 / attribute-01
+                  :ARG0 (h / he)
+                  :ARG1 (t2 / thing
+                        :ARG0-of (c2 / cause-01
+                              :ARG1 (p6 / prevail-02
+                                    :ARG1 (h2 / hostile)
+                                    :location (c / country :wiki "China" :name (n2 / name :op1 "China")))))
+                  :ARG2 (h3 / have-03
+                        :ARG0 (t / textbook
+                              :mod (s / school
+                                    :mod (e / elementary)))
+                        :ARG1 (p2 / person :wiki - :name (n / name :op1 "Wang" :op2 "Erxiao")))
+                  :medium (b2 / blog :quant 1))
+            :op2 (d / disparage-01
+                  :ARG0 h
+                  :ARG1 (a3 / article
+                        :ARG0-of (p3 / promote-01
+                              :ARG1 (p4 / patriotism))
+                        :ARG1-of (g / good-02))
+                  :consist-of (w / worth-01 :polarity -
+                        :ARG1 a3
+                        :ARG2 (p5 / penny
+                              :mod (e2 / even))))))
+
+# ::id bolt12_6454_5051.7 ::date 2012-12-20T07:57:55 ::annotator SDL-AMR-09 ::preferred
+# ::snt Another example is so-called "sexologist" and "social activist" Li Yinhe - one, her stuff is not similar to things like the treatise "Haite Sexology Report"; two, she has no deep thought; and three, she has no significant contributions.
+# ::save-date Sun Jul 26, 2015 ::file bolt12_6454_5051_7.txt
+(m / multi-sentence
+      :snt1 (e / exemplify-01
+            :ARG0 (p / person :wiki "Li_Yinhe"
+                  :name (n / name :op1 "Li" :op2 "Yinhe")
+                  :mod (s / sexologist
+                        :ARG1-of (c / call-01
+                              :mod (s3 / so)))
+                  :mod (a2 / activist
+                        :mod (s2 / social)
+                        :ARG1-of c))
+            :mod (a3 / another))
+      :snt2 (r / resemble-01 :polarity - :li 1
+            :ARG1 (s4 / stuff
+                  :poss (s6 / she))
+            :ARG2 (t / thing
+                  :example (t2 / treatise :wiki -
+                        :name (n3 / name :op1 "Haite" :op2 "Sexology" :op3 "Report"))))
+      :snt3 (t3 / think-01 :polarity - :li 2
+            :ARG0 (s7 / she)
+            :ARG1-of (d / deep-02))
+      :snt4 (c2 / contribute-01 :polarity - :li 3
+            :ARG0 (s8 / she)
+            :ARG1-of (s5 / significant-02)))
+
+# ::id bolt12_6454_5051.8 ::date 2012-12-20T08:02:33 ::annotator SDL-AMR-09 ::preferred
+# ::snt She main relies on doing something novel and different and on shocking viewpoints to attract people's eyes, but without real ability or learning, she's purely a jumping clown,
+# ::save-date Thu Oct 8, 2015 ::file bolt12_6454_5051_8.txt
+(m2 / multi-sentence
+      :snt2 (c3 / clown
+            :domain (s / she)
+            :ARG0-of (j / jump-03)
+            :ARG1-of (p / pure-02))
+      :snt1 (r / rely-01
+            :ARG0 (s4 / she)
+            :ARG1 (a2 / and
+                  :op1 (d / do-02
+                        :ARG1 (s3 / something
+                              :mod (n / novel)
+                              :ARG1-of (d2 / differ-02)))
+                  :op2 (v / viewpoint
+                        :ARG0-of (s2 / shock-01)))
+            :ARG2 (a4 / attract-01
+                  :ARG0 s
+                  :ARG1 (e / eye
+                        :part-of (p2 / person)))
+            :mod (m / main)
+            :manner (o / or :polarity -
+                  :op1 (c / capable-01
+                        :ARG1 s4
+                        :ARG1-of (r2 / real-04))
+                  :op2 (l / learn-01
+                        :ARG0 s4)
+                  :ARG2-of (c2 / contrast-01
+                        :ARG1 r))))
+
+# ::id bolt12_6454_5051.9 ::date 2012-12-20T08:05:31 ::annotator SDL-AMR-09 ::preferred
+# ::snt This kind of person puts on the big "specialist" hat just to intimidate people; the key is that she is concerned about politics yet doesn't understand politics, is willing to be a slave of foreigners yet is arrogant and overbearing, is ignorant yet feels fine.
+# ::save-date Tue Nov 3, 2015 ::file bolt12_6454_5051_9.txt
+(m / multi-sentence
+      :snt1 (p / put-on-08
+            :ARG0 (p2 / person
+                  :mod (k / kind
+                        :mod (t / this)))
+            :ARG1 (h / hat
+                  :mod (p6 / person
+                        :ARG0-of (s / specialize-01
+                              :mod (b / big))))
+            :purpose (i / intimidate-01
+                  :ARG0 p2
+                  :ARG1 (p3 / person)
+                  :mod (j / just)))
+      :snt2 (k2 / key-02
+            :ARG1 (a5 / and
+                  :op1 (h2 / have-concession-91
+                        :ARG1 (u / understand-01 :polarity -
+                              :ARG0 s2
+                              :ARG1 (p5 / politics)
+                              :mod (y / yet))
+                        :ARG2 (c2 / concern-01
+                              :ARG0 p5
+                              :ARG1 s2))
+                  :op2 (h3 / have-concession-91
+                        :ARG1 (a3 / and
+                              :op1 (a / arrogance
+                                    :domain s2)
+                              :op2 (o / overbearing
+                                    :domain s2))
+                        :ARG2 (w / will-02
+                              :ARG0 s2
+                              :ARG1 (s3 / slave
+                                    :beneficiary (f / foreign)
+                                    :domain s2)))
+                  :op3 (h4 / have-concession-91
+                        :ARG1 (f2 / feel-01
+                              :ARG0 s2
+                              :ARG1 (f3 / fine-04
+                                    :ARG1 s2))
+                        :ARG2 (i2 / ignorant-02
+                              :ARG1 (s2 / she))))))
+
+# ::id bolt12_6454_5051.10 ::date 2012-12-20T08:09:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt Like in the essay "A bit less hostility, a bit more harmony", she completely denigrates class struggle and the anti-pornography-and-illegal-publications drive as social hostility;
+# ::save-date Fri Aug 14, 2015 ::file bolt12_6454_5051_10.txt
+(e2 / exemplify-01
+      :ARG0 (d / denigrate-01
+            :ARG0 (s / she)
+            :ARG1 (a / and
+                  :op1 (s2 / struggle-01
+                        :mod (c2 / class))
+                  :op2 (d2 / drive-04
+                        :ARG1 (o / oppose-01
+                              :ARG1 (a4 / and
+                                    :op1 (p2 / pornography)
+                                    :op2 (p3 / publication
+                                          :ARG1-of (l2 / legal-02 :polarity -))))))
+            :ARG2 (h / hostility
+                  :mod (s3 / social))
+            :ARG1-of (c / complete-02)
+            :medium (e / essay
+                  :ARG1-of (t / title-01
+                        :ARG2 (a3 / and
+                              :op1 (h2 / hostility
+                                    :quant (l / less
+                                          :degree (b / bit)))
+                              :op2 (h3 / harmony
+                                    :quant (m / more
+                                          :degree (b2 / bit))))))))
+
+# ::id bolt12_6454_5051.11 ::date 2012-12-20T08:12:01 ::annotator SDL-AMR-09 ::preferred
+# ::snt in the essay "China has already become the country which worships money most on the earth", she attributes Chinese society's worship of money to atheism;
+# ::save-date Tue Nov 3, 2015 ::file bolt12_6454_5051_11.txt
+(a / attribute-01
+      :ARG0 (s / she)
+      :ARG1 (w / worship-01
+            :ARG0 (s2 / society
+                  :mod (c / country :wiki "China" :name (n / name :op1 "China")))
+            :ARG1 (m / money))
+      :ARG2 (a2 / atheism)
+      :medium (e / essay
+            :ARG1-of (t / title-01
+                  :ARG2 (b / become-01
+                        :ARG1 c
+                        :ARG2 (c2 / country
+                              :ARG0-of (w2 / worship-01
+                                    :ARG1 (m2 / money)
+                                    :degree (m3 / most))
+                              :compared-to (e2 / earth))
+                        :time (a3 / already)))))
+
+# ::id bolt12_6454_5051.12 ::date 2012-12-20T08:13:26 ::annotator SDL-AMR-09 ::preferred
+# ::snt the essay "Are you studying Paul or studying Bill?", she blathers that "people who study Paul will become terrorists";
+# ::save-date Thu Jan 28, 2016 ::file bolt12_6454_5051_12.txt
+(b2 / blather-01
+      :ARG0 (s2 / she)
+      :ARG1 (b / become-01
+            :ARG1 (p2 / person
+                  :ARG0-of (s3 / study-01
+                        :ARG1 (p3 / person :wiki - :name (n2 / name :op1 "Paul"))))
+            :ARG2 (t2 / terrorist))
+      :medium (e / essay
+            :ARG1-of (t / title-01
+                  :ARG2 (s / study-01 :mode interrogative
+                        :ARG0 (y / you)
+                        :ARG1 (o / or
+                              :op1 p3
+                              :op2 (p4 / person :wiki - :name (n / name :op1 "Bill")))))))
+
+# ::id bolt12_6454_5051.13 ::date 2012-12-20T08:16:45 ::annotator SDL-AMR-09 ::preferred
+# ::snt in the essay "Recommendation for establishment of a constitutional court to solve the problem of pornographic products", she takes citizens publishing pornographic novels to be freedom of speech, and says the Beijing anti-pornography drive is unconstitutional behavior, etc.
+# ::save-date Wed Jul 8, 2015 ::file bolt12_6454_5051_13.txt
+(a / and
+      :op1 (t / take-04
+            :ARG0 (s2 / she)
+            :ARG1 (p / publish-01
+                  :ARG0 (c / citizen)
+                  :ARG1 (n / novel
+                        :mod (p2 / pornographic)))
+            :ARG2 (f / free-04
+                  :ARG3 (s3 / speak-01)))
+      :op2 (s / say-01
+            :ARG0 s2
+            :ARG1 (b2 / behave-01
+                  :ARG0 (d / drive-04
+                        :ARG0 (c2 / city :wiki "Beijing" :name (n2 / name :op1 "Beijing"))
+                        :ARG1 (o / oppose-01
+                              :ARG1 (p6 / pornography)))
+                  :ARG1 (c7 / constitution :polarity -)))
+      :medium (e / essay
+            :ARG1-of (t3 / title-01
+                  :ARG2 (r / recommend-01
+                        :ARG1 (e2 / establish-01
+                              :ARG1 (c5 / court
+                                    :mod (c6 / constitutional))
+                              :purpose (s4 / solve-01
+                                    :ARG0 c5
+                                    :ARG1 (p3 / problem
+                                          :topic (p7 / product
+                                                :mod (p5 / pornography)))))))))
+
+# ::id bolt12_6454_5051.14 ::date 2012-12-20T08:20:52 ::annotator SDL-AMR-09 ::preferred
+# ::snt Especially today's masterpiece, "Why is it worth paying such close attention to the Jianghe obscene goods case?", where she is once again crying foul over several people suspected of involvement in erotic business activities who are being dealt with by Beijing City, as well as detailing a list of erotic products, with a deeper intent of doing publicity for other people."
+# ::save-date Wed Jan 20, 2016 ::file bolt12_6454_5051_14.txt
+(a / and
+      :op1 (c / cry-01
+            :ARG0 (s / she)
+            :ARG1 (p / person
+                  :quant (s3 / several)
+                  :ARG2-of (d / deal-01
+                        :ARG0 (g2 / government-organization :wiki "Government_of_China"
+                              :name (n / name :op1 "Beijing" :op2 "City")))
+                  :ARG2-of (s2 / suspect-01
+                        :ARG1 (i / involve-01
+                              :ARG1 p
+                              :ARG2 (a3 / activity-06
+                                    :ARG1 (b / business
+                                          :mod (e / erotic))))))
+            :mod (a2 / again
+                  :mod (o / once))
+            :manner (f / foul))
+      :op2 (d2 / detail-01
+            :ARG0 s
+            :ARG1 (l2 / list
+                  :consist-of (p6 / product
+                        :mod (e2 / erotic)))
+            :ARG1-of (c2 / cause-01
+                  :ARG0-of (i2 / intend-01
+                        :ARG1 (p3 / publicize-01
+                              :beneficiary (p4 / person
+                                    :mod (o2 / other)))
+                        :ARG1-of (d3 / deep-02
+                              :degree (m / more)))))
+      :medium (m2 / masterpiece
+            :time (t / today)
+            :mod (e3 / especially)
+            :ARG1-of (t2 / title-01
+                  :ARG2 (c3 / cause-01
+                        :ARG0 (a5 / amr-unknown)
+                        :ARG1 (w / worth-02
+                              :ARG2 (a4 / attend-02
+                                    :ARG1 (c5 / case-03 :wiki -
+                                          :ARG1 (g / good
+                                                :mod (o3 / obscene))
+                                          :name (n2 / name :op1 "Jianghe"))
+                                    :ARG1-of (c4 / close-10
+                                          :degree (s4 / such))))))))
+
+# ::id bolt12_6454_5051.15 ::date 2012-12-20T08:25:48 ::annotator SDL-AMR-09 ::preferred
+# ::snt But these kind of jerky articles actually being put on top by Sina blog is really preposterous!
+# ::save-date Thu Feb 11, 2016 ::file bolt12_6454_5051_15.txt
+(c / contrast-01
+      :ARG2 (p2 / preposterous
+            :degree (r / really)
+            :domain (p / put-01
+                  :ARG0 (b / blog :wiki "Sina_Weibo" :name (n / name :op1 "Sina"))
+                  :ARG1 (a / article
+                        :mod (k / kind
+                              :mod (t / this))
+                        :mod (j / jerky))
+                  :ARG2 (t2 / top)
+                  :ARG1-of (a2 / actual-02))))
+
+# ::id bolt12_6454_5051.16 ::date 2012-12-20T08:26:51 ::annotator SDL-AMR-09 ::preferred
+# ::snt And there is also Sichuanese poet Liu Shahe, who, while America clear to the eye and with swelling gall engages in containment of China and the people of the whole nation are feeling indignant, actually comes out with the fallacy "China and America are friendly", and tries to pour spirit-confusing soup on the Chinese people willfully and without fear;
+# ::save-date Thu Feb 11, 2016 ::file bolt12_6454_5051_16.txt
+(p3 / poet :wiki "Liu_Shahe" :name (n / name :op1 "Liu" :op2 "Shahe")
+      :mod (a3 / also)
+      :mod (p5 / province :wiki "Sichuan" :name (n5 / name :op1 "Shichuan"))
+      :ARG0-of (c7 / come-out-09
+            :ARG1 (f4 / friendly-01
+                  :ARG1 c3
+                  :ARG2 c5
+                  :mod (f3 / fallacy))
+            :ARG1-of (a2 / actual-02)
+            :time (a / and
+                  :op1 (e / engage-01
+                        :ARG1 (c5 / country :wiki "United_States" :name (n4 / name :op1 "America"))
+                        :ARG2 (c / contain-02
+                              :ARG0 c5
+                              :ARG1 c3)
+                        :ARG1-of (c4 / clear-06
+                              :ARG2 (e2 / eye))
+                        :manner (s / swell-01
+                              :ARG1 (g / gall
+                                    :part-of c5)))
+                  :op2 (f2 / feel-01
+                        :ARG0 (p4 / person
+                              :poss (n2 / nation
+                                    :mod (w2 / whole)))
+                        :ARG1 (i / indignant))))
+      :ARG0-of (t / try-01
+            :ARG1 (p / pour-01
+                  :ARG1 (s2 / soup
+                        :ARG0-of (c2 / confuse-01
+                              :ARG1 (s3 / spirit)))
+                  :ARG3 (p2 / people
+                        :mod (c3 / country :wiki "China" :name (n3 / name :op1 "China")))
+                  :manner (f / fear-01 :polarity -
+                        :ARG0 p3)
+                  :ARG1-of (w3 / will-02
+                        :ARG0 p3))
+            :time e))
+
+# ::id bolt12_6454_5051.17 ::date 2012-12-20T08:32:05 ::annotator SDL-AMR-09 ::preferred
+# ::snt Yi Zhongtian,who got famous by remarking upon the "three countries", whose talent and learning I have always respected, but I didn't expect that he was actually supporting the big traitor of China, Mao Yushi, saying some things like "I believe whoever disrespects Mao Yushi is not human", once again making me very much drop my glasses!
+# ::save-date Thu Mar 3, 2016 ::file bolt12_6454_5051_17.txt
+(p / person :wiki "Yi_Zhongtian" :name (n / name :op1 "Yi" :op2 "Zhongtian")
+      :ARG1-of (g2 / get-03
+            :ARG2 (f / fame-01
+                  :ARG1 p
+                  :ARG2 (r2 / remark-01
+                        :ARG0 p
+                        :topic (c2 / country :quant 3))))
+      :ARG1-of (r / respect-01
+            :ARG0 (i / i)
+            :time (a / always)
+            :ARG1-of (c / contrast-01
+                  :ARG2 (e / expect-01 :polarity -
+                        :ARG0 i
+                        :ARG1 (s / support-01
+                              :ARG0 p
+                              :ARG1 (p2 / person :wiki "Mao_Yushi" :name (n2 / name :op1 "Mao" :op2 "Yushi")
+                                    :ARG0-of (b / betray-01
+                                          :ARG1 (c3 / country :wiki "China" :name (n3 / name :op1 "China"))
+                                          :mod (b2 / big)))
+                              :ARG1-of (a3 / actual-02)
+                              :manner (s2 / say-01
+                                    :ARG0 p
+                                    :ARG1 (t3 / thing
+                                          :quant (s3 / some)
+                                          :example (b3 / believe-01
+                                                :ARG0 p
+                                                :ARG1 (h / human :polarity -
+                                                      :domain (p3 / person
+                                                            :mod (a5 / any)
+                                                            :ARG0-of (d / disrespect-01
+                                                                  :ARG1 p2)))))
+                                    :ARG0-of (m2 / make-02
+                                          :ARG1 (d2 / drop-01
+                                                :ARG0 i
+                                                :ARG1 (g / glasses
+                                                      :poss i)
+                                                :degree (m / much
+                                                      :degree (v / very)))
+                                          :mod (a4 / again
+                                                :mod (o / once)))))))
+            :ARG1-of (c4 / cause-01
+                  :ARG0 (a2 / and
+                        :op1 (t / talent
+                              :poss p)
+                        :op2 (t4 / thing
+                              :ARG1-of (l / learn-01
+                                    :ARG0 p))))))
+
+# ::id bolt12_6454_5051.18 ::date 2012-12-20T08:37:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt Also, as for the rumor on the internet a short time ago "Complete notes on 100 Chinese celebrities who accepted political contributions from the Ford Foundation", I feel that the segment of the intellectual elite in China who are "becoming treasonous" are increasingly ardent and have already become willful and without fear, to a level of publicly harming the country.
+# ::save-date Thu Feb 4, 2016 ::file bolt12_6454_5051_18.txt
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (a2 / and
+            :op1 (a3 / ardent
+                  :domain (t2 / thing
+                        :ARG2-of (s / segment-01
+                              :ARG1 (e / elite
+                                    :mod (i3 / intellectual)
+                                    :location (c / country :wiki "China" :name (n3 / name :op1 "China"))))
+                        :ARG1-of (b / become-01
+                              :ARG2 (p / person
+                                    :ARG0-of (b4 / betray-01))))
+                  :ARG1-of (i2 / increase-01))
+            :op2 (b2 / become-01
+                  :ARG1 t2
+                  :ARG2 (a4 / and
+                        :op1 (w / willful)
+                        :op2 (f2 / fear-01 :polarity -
+                              :ARG0 t2))
+                  :time (a5 / already))
+            :degree (h / harm-01
+                  :ARG0 t2
+                  :ARG1 (c2 / country)
+                  :ARG1-of (p2 / public-02)))
+      :mod (a / also)
+      :topic (r / rumor-01
+            :ARG1 (n / note
+                  :topic (c3 / celebrity :quant 100
+                        :mod c
+                        :ARG0-of (a6 / accept-01
+                              :ARG1 (t3 / thing
+                                    :ARG1-of (c5 / contribute-01
+                                          :ARG0 (o / organization :wiki "Ford_Foundation" :name (n2 / name :op1 "Ford" :op2 "Foundation"))
+                                          :mod (p3 / politics)))))
+                  :ARG1-of (c4 / complete-02))
+            :medium (i4 / internet)
+            :time (b3 / before
+                  :op1 (n4 / now)
+                  :ARG1-of (s2 / short-07))))
+
+# ::id bolt12_6454_5051.19 ::date 2012-12-20T08:44:32 ::annotator SDL-AMR-09 ::preferred
+# ::snt But I do not understand, when these people frequently make treasonous remarks, why no one curbs them and they, moreover, can continue to occupy high positions, calling the wind and rousing the rain among the intelligentsia and in public opinion?
+# ::save-date Thu Feb 4, 2016 ::file bolt12_6454_5051_19.txt
+(c5 / contrast-01
+      :ARG2 (u / understand-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t3 / thing
+                  :ARG0-of (c / cause-01
+                        :ARG1 (a2 / and
+                              :op1 (c2 / curb-01
+                                    :ARG0 (n / no-one)
+                                    :ARG1 p)
+                              :op2 (p2 / possible-01
+                                    :ARG1 (c3 / continue-01
+                                          :ARG0 p
+                                          :ARG1 (p5 / position-01
+                                                :ARG1 p
+                                                :ARG1-of (h / high-02)
+                                                :time-of (a3 / and
+                                                      :op1 (c4 / call-02
+                                                            :ARG0 p
+                                                            :ARG1 (w / wind))
+                                                      :op2 (r2 / rouse-01
+                                                            :ARG0 p
+                                                            :ARG1 (r / rain-01))
+                                                      :location (a / and
+                                                            :op1 (i2 / intelligentsia)
+                                                            :op2 (t4 / thing
+                                                                  :ARG1-of (o / opine-01
+                                                                        :ARG0 (p4 / public)))))))
+                                    :mod (m2 / moreover))))
+                  :mod (a4 / amr-unknown))
+            :time (r4 / remark-01
+                  :ARG0 (p / person
+                        :mod (t2 / this))
+                  :ARG1 (t / thing
+                        :ARG0-of (b / betray-01))
+                  :ARG1-of (f / frequent-02))))
+
+# ::id bolt12_6454_5051.20 ::date 2012-12-20T08:50:06 ::annotator SDL-AMR-09 ::preferred
+# ::snt Contacting "Southern newspapers", which were temporarily fierce a short while ago, I feel that part of the intellectual elite have possibly sunk together with media personalities!
+# ::save-date Mon Nov 2, 2015 ::file bolt12_6454_5051_20.txt
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (p / possible-01
+            :ARG1 (s2 / sink-01
+                  :ARG0 (p4 / part
+                        :part-of (e / elite
+                              :mod (i2 / intellectual)))
+                  :accompanier (p3 / personality
+                        :mod (m / media))))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (c / contact-01
+                  :ARG1 (n / newspaper
+                        :location (s / south)
+                        :mod (f2 / fierce
+                              :duration (t / temporary)
+                              :time (b / before
+                                    :op1 (n2 / now)
+                                    :quant (w / while
+                                          :ARG1-of (s3 / short-07))))))))
+
+# ::id bolt12_6454_5051.21 ::date 2012-12-20T08:52:29 ::annotator SDL-AMR-09 ::preferred
+# ::snt I remember, 60-some years ago the US had just fought a war with China, and still threatened China with the use of nuclear weapons;
+# ::save-date Fri Nov 22, 2013 ::file bolt12_6454_5051_21.txt
+(r / remember-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (w3 / war-01
+                  :ARG0 (c / country :wiki "United_States"
+                        :name (n3 / name :op1 "US"))
+                  :ARG1 (c2 / country :wiki "China"
+                        :name (n2 / name :op1 "China"))
+                  :mod (j / just)
+                  :time (b / before
+                        :op1 (n4 / now)
+                        :quant (m / more-than
+                              :op1 (t / temporal-quantity :quant 60
+                                    :unit (y / year)))))
+            :op2 (t2 / threaten-01
+                  :ARG0 c
+                  :ARG1 (u / use-01
+                        :ARG0 c
+                        :ARG1 (w2 / weapon
+                              :mod (n / nucleus)))
+                  :ARG2 c2
+                  :mod (s2 / still))))
+
+# ::id bolt12_6454_5051.22 ::date 2012-12-20T09:35:08 ::annotator SDL-AMR-09 ::preferred
+# ::snt 40-some years ago, the US entered Vietnam with the intention of containing China;
+# ::save-date Thu Jan 28, 2016 ::file bolt12_6454_5051_22.txt
+(e / enter-01
+      :ARG0 (c / country :wiki "United_States" :name (n3 / name :op1 "US"))
+      :ARG1 (c2 / country :wiki "Vietnam" :name (n / name :op1 "Vietnam"))
+      :time (b / before
+            :op1 (n4 / now)
+            :quant (m / more-than
+                  :op1 (t / temporal-quantity :quant 40
+                        :unit (y / year))))
+      :purpose (c3 / contain-02
+            :ARG0 c
+            :ARG1 (c4 / country :wiki "China" :name (n2 / name :op1 "China"))))
+
+# ::id bolt12_6454_5051.23 ::date 2012-12-20T09:36:38 ::annotator SDL-AMR-09 ::preferred
+# ::snt although 32 years ago it had established relations with China, 22 years ago it again started imposing sanctions on China, 12 years ago it bombed a Chinese embassy, 10 years ago the South China Sea collision incident occurred, and two years ago it restarted its containment of China with great fanfare.
+# ::save-date Thu Jan 28, 2016 ::file bolt12_6454_5051_23.txt
+(h / have-concession-91
+      :ARG1 (a / and
+            :op1 (s / start-01
+                  :ARG0 i
+                  :ARG1 (i2 / impose-01
+                        :ARG0 i
+                        :ARG1 (t6 / thing
+                              :ARG2-of (s2 / sanction-02))
+                        :ARG2 c)
+                  :mod (a3 / again)
+                  :time (b6 / before
+                        :op1 (n7 / now)
+                        :quant (t2 / temporal-quantity :quant 22
+                              :unit (y2 / year))))
+            :op2 (b / bomb-01
+                  :ARG0 i
+                  :ARG1 (e2 / embassy
+                        :mod c)
+                  :time (b5 / before
+                        :op1 (n6 / now)
+                        :quant (t3 / temporal-quantity :quant 12
+                              :unit (y3 / year))))
+            :op3 (c3 / collide-01
+                  :location (s3 / sea :wiki "South_China_Sea" :name (n / name :op1 "South" :op2 "China" :op3 "Sea"))
+                  :time (b4 / before
+                        :op1 (n5 / now)
+                        :quant (t4 / temporal-quantity :quant 10
+                              :unit (y4 / year))))
+            :op4 (r2 / restart-01
+                  :ARG0 i
+                  :ARG1 (c2 / contain-02
+                        :ARG0 i
+                        :ARG1 c
+                        :manner (f / fanfare
+                              :mod (g / great
+                                    :degree (m / more))))
+                  :time (b3 / before
+                        :op1 (n4 / now)
+                        :quant (t5 / temporal-quantity :quant 2
+                              :unit (y5 / year)))))
+      :ARG2 (e / establish-01
+            :ARG0 (i / it)
+            :ARG1 (r / relation-03
+                  :ARG0 i
+                  :ARG2 (c / country :wiki "China" :name (n2 / name :op1 "China")))
+            :time (b2 / before
+                  :op1 (n3 / now)
+                  :quant (t / temporal-quantity :quant 32
+                        :unit (y / year)))))
+
+# ::id bolt12_6454_5051.24 ::date 2012-12-20T09:42:10 ::annotator SDL-AMR-09 ::preferred
+# ::snt I don't understand, why are we Chinese so forgetful?
+# ::save-date Thu Dec 12, 2013 ::file bolt12_6454_5051_24.txt
+(u / understand-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (a / amr-unknown
+            :ARG0-of (c / cause-01
+                  :ARG1 (f / forget-01
+                        :ARG0 (w / we
+                              :mod (c2 / country :wiki "China"
+                                    :name (n / name :op1 "China")))
+                        :degree (s / so)))))
+
+# ::id bolt12_6454_5051.25 ::date 2012-12-20T09:43:18 ::annotator SDL-AMR-09 ::preferred
+# ::snt Why are there still so many people ignoring their conscience and speaking on the behalf of the US?
+# ::save-date Fri Nov 22, 2013 ::file bolt12_6454_5051_25.txt
+(c / cause-01
+      :ARG0 (a / amr-unknown)
+      :ARG1 (p / person
+            :quant (m / many
+                  :degree (s2 / so))
+            :ARG0-of (i / ignore-01
+                  :ARG1 (c3 / conscience
+                        :poss p))
+            :ARG0-of (s / speak-01
+                  :prep-on-behalf-of (c2 / country :wiki "United_States"
+                        :name (n / name :op1 "US")))
+            :mod (s3 / still)))
+
+# ::id bolt12_6454_5051.26 ::date 2012-12-20T09:44:36 ::annotator SDL-AMR-09 ::preferred
+# ::snt Without taking a big loss, people don't improve their abilities to remember - this is possibly the greatest weakness of us Chinese.
+# ::save-date Fri Jul 31, 2015 ::file bolt12_6454_5051_26.txt
+(m / multi-sentence
+      :snt1 (i / improve-01 :polarity -
+            :ARG0 (p / person)
+            :ARG1 (c2 / capable-01
+                  :ARG1 p
+                  :ARG2 (r / remember-01
+                        :ARG0 p))
+            :manner (l / lose-02 :polarity -
+                  :ARG0 p
+                  :mod (b / big)))
+      :snt2 (w / weak-02
+            :ARG1 (w2 / we
+                  :mod (c / country :wiki "China" :name (n / name :op1 "China")))
+            :ARG2 (t / this)
+            :mod (g / great
+                  :degree (m2 / most))
+            :ARG1-of (p3 / possible-01)))
+
+# ::id bolt12_6454_5051.27 ::date 2012-12-20T09:46:45 ::annotator SDL-AMR-09 ::preferred
+# ::snt Therefore, it also stands to reason that the forces of the traitors of China are rampaging and the fifth column is running rampant
+# ::save-date Thu Jul 30, 2015 ::file bolt12_6454_5051_27.txt
+(i / infer-01
+      :ARG1 (s / stand-01
+            :ARG1 (a2 / and
+                  :op1 (r2 / rampage-01
+                        :ARG0 (f / force
+                              :poss (p / person
+                                    :ARG0-of (b / betray-01
+                                          :ARG1 (c / country :wiki "China" :name (n / name :op1 "China"))))))
+                  :op2 (r3 / run-01
+                        :ARG1 (c2 / column
+                              :ord (o / ordinal-entity :value 5))
+                        :manner (r4 / rampant)))
+            :prep-to (r / reason-01)
+            :mod (a / also)))
+
+# ::id bolt12_6454_5052.1 ::date 2012-12-22T15:56:43 ::annotator SDL-AMR-09 ::preferred
+# ::snt It's entirely possible - don't we ourselves raise "traitors to China" among primary school students?
+# ::save-date Fri Nov 22, 2013 ::file bolt12_6454_5052_1.txt
+(m / multi-sentence
+      :snt1 (p / possible-01
+            :mod (e / entire))
+      :snt2 (r / raise-03 :mode interrogative :polarity -
+            :ARG0 (w / we)
+            :ARG1 (p4 / person
+                  :ARG0-of (b / betray-01
+                        :ARG1 (c / country :wiki "China"
+                              :name (n / name :op1 "China")))
+                  :ARG1-of (i / include-91
+                        :ARG2 (p2 / person
+                              :ARG0-of (s / study-01
+                                    :location (s2 / school
+                                          :mod (p3 / primary))))))))
+
+# ::id bolt12_6454_5054.1 ::date 2012-12-22T15:58:34 ::annotator SDL-AMR-09 ::preferred
+# ::snt It's entirely possible - don't we ourselves raise "traitors to China" among primary school students?
+# ::save-date Fri Nov 22, 2013 ::file bolt12_6454_5054_1.txt
+(m / multi-sentence
+      :snt1 (p / possible-01
+            :mod (e / entire))
+      :snt2 (r / raise-03 :mode interrogative :polarity -
+            :ARG0 (w / we)
+            :ARG1 (p4 / person
+                  :ARG0-of (b / betray-01
+                        :ARG1 (c / country :wiki "China"
+                              :name (n / name :op1 "China")))
+                  :ARG1-of (i / include-91
+                        :ARG2 (p2 / person
+                              :ARG0-of (s / study-01
+                                    :location (s2 / school
+                                          :mod (p3 / primary))))))))
+
+# ::id bolt12_6454_5055.1 ::date 2012-12-22T15:59:53 ::annotator SDL-AMR-09 ::preferred
+# ::snt Just passing through, taking a look
+# ::save-date Fri Nov 22, 2013 ::file bolt12_6454_5055_1.txt
+(a / and
+      :op1 (p / pass-03
+            :mod (j / just)
+            :path (t2 / through))
+      :op2 (l / look-01))
+
+# ::id bolt12_6454_5056.1 ::date 2012-12-22T16:00:45 ::annotator SDL-AMR-09 ::preferred
+# ::snt Passing through ...
+# ::save-date Sat Dec 22, 2012 ::file bolt12_6454_5056_1.txt
+(p / pass-03
+  :path (t / through))
+
+# ::id bolt12_6454_5057.1 ::date 2012-12-22T16:02:32 ::annotator SDL-AMR-09 ::preferred
+# ::snt Mr. Zhengqing, the things you say are quite astonishing, there possibly is a suspicion that there are fragments , even if they are a fifth column, they wouldn't be so bare-boned, we should allow the existence of different opinions, the times are really different, no matter if its democracy or pan-Occidentalism, neither are beneficial to China, don't be afraid, what do you say
+# ::save-date Thu Jan 7, 2016 ::file bolt12_6454_5057_1.txt
+(m / multi-sentence
+      :snt1 (s5 / say-01
+            :ARG0 (i / i)
+            :ARG1 (a2 / astonish-01
+                  :ARG0 (t / thing
+                        :ARG1-of (s / say-01
+                              :ARG0 p2))
+                  :degree (q / quite))
+            :ARG2 (p2 / person :wiki - :name (n / name :op1 "Mr." :op2 "Zhengqing")))
+      :snt2 (p / possible-01
+            :ARG1 (s2 / suspect-01
+                  :ARG1 (f2 / fragment
+                        :mod (b / bone :polarity -
+                              :degree (s3 / so)
+                              :ARG1-of (b2 / bare-02))))
+            :concession (e2 / even-if
+                  :op1 (c / column
+                        :ord (o3 / ordinal-entity :value 5)
+                        :domain f2)))
+      :snt3 (r / recommend-01
+            :ARG1 (a3 / allow-01
+                  :ARG0 (w / we)
+                  :ARG1 (t5 / thing
+                        :ARG1-of (o4 / opine-01
+                              :ARG1-of (d2 / differ-02)))))
+      :snt4 (d / differ-02
+            :ARG1 (t2 / time)
+            :degree (r2 / really))
+      :snt5 (r3 / regardless-91
+            :ARG1 (b3 / benefit-01 :polarity -
+                  :ARG0 o2
+                  :ARG1 (c2 / country :wiki "China" :name (n2 / name :op1 "China")))
+            :ARG2 (o2 / or
+                  :op1 (d3 / democracy)
+                  :op2 (p3 / pan-occidentalism)))
+      :snt6 (f / fear-01 :polarity - :mode imperative
+            :ARG0 (y / you))
+      :snt7 (s4 / say-01
+            :ARG0 (y2 / you)
+            :ARG1 (a4 / amr-unknown)))
+
+# ::id bolt12_6454_5059.1 ::date 2012-12-23T17:56:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt Mr. Zhengqing, the things you say are quite astonishing, there possibly is a suspicion that there are fragments , even if they are a fifth column, they wouldn't be so bare-boned,
+# ::save-date Sat Jul 25, 2015 ::file bolt12_6454_5059_1.txt
+(m / multi-sentence
+      :snt2 (p / possible-01
+            :ARG1 (s / suspect-01
+                  :ARG1 (f / fragment)))
+      :snt3 (h / have-concession-91
+            :ARG1 (b3 / bone :polarity -
+                  :ARG1-of (b / bare-02)
+                  :domain (t2 / they)
+                  :degree (s3 / so))
+            :ARG2 (e / even-if
+                  :op1 (c2 / column
+                        :domain t2
+                        :ord (o / ordinal-entity :value 5))))
+      :snt1 (s4 / say-01
+            :ARG1 (a2 / astonish-01
+                  :ARG0 (t / thing
+                        :ARG1-of (s2 / say-01
+                              :ARG0 p2))
+                  :degree (q / quite))
+            :ARG2 (p2 / person :wiki - :name (n / name :op1 "Mr." :op2 "Zhengqing"))))
+
+# ::id bolt12_6454_5059.2 ::date 2012-12-23T17:58:29 ::annotator SDL-AMR-09 ::preferred
+# ::snt we should allow the existence of different opinions, the times are really different, no matter if its democracy or pan-Occidentalism, neither are beneficial to China, don't be afraid, what do you say
+# ::save-date Thu Jan 7, 2016 ::file bolt12_6454_5059_2.txt
+(m / multi-sentence
+      :snt1 (r / recommend-01
+            :ARG1 (a2 / allow-01
+                  :ARG0 (w / we)
+                  :ARG1 (e / exist-01
+                        :ARG1 (t2 / thing
+                              :ARG1-of (o / opine-01)
+                              :ARG1-of (d / differ-02)))))
+      :snt2 (d2 / differ-02
+            :ARG1 (t / time)
+            :degree (r2 / really))
+      :snt4 (f / fear-01 :polarity - :mode imperative
+            :ARG0 (y / you))
+      :snt5 (s / say-01
+            :ARG0 (y2 / you)
+            :ARG1 (a / amr-unknown))
+      :snt3 (r3 / regardless-91
+            :ARG1 (b2 / benefit-01 :polarity -
+                  :ARG0 o3
+                  :ARG1 (c / country :wiki "China" :name (n / name :op1 "China")))
+            :ARG2 (o3 / or
+                  :op1 (d4 / democracy)
+                  :op2 (p / pan-occidentalism))))
+
+# ::id bolt12_64556_5610.1 ::date 2012-12-03T15:07:07 ::annotator SDL-AMR-09 ::preferred
+# ::snt Little Japan, born of dog feces and the dead US economy almost can't survive. They are preparing to start a war, to pass on debt to others.
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64556_5610_1.txt
+(m / multi-sentence
+      :snt1 (p2 / possible-01 :polarity -
+            :ARG1 (s2 / survive-01
+                  :ARG0 (c3 / country :wiki "Japan"
+                        :name (n3 / name :op1 "Japan")
+                        :mod (l2 / little)
+                        :ARG1-of (b2 / bear-02
+                              :ARG0 (a4 / and
+                                    :op1 (f / feces
+                                          :mod (d2 / dog))
+                                    :op2 (e / economy
+                                          :mod (c / country :wiki "United_States"
+                                                :name (n / name :op1 "US"))
+                                          :ARG1-of (d3 / die-01))))))
+            :mod (a3 / almost))
+      :snt2 (p3 / prepare-02
+            :ARG0 (t / they)
+            :ARG1 (a / and
+                  :op1 (s / start-01
+                        :ARG0 t
+                        :ARG1 (w / war))
+                  :op2 (p / pass-on-09
+                        :ARG0 t
+                        :ARG1 (d / debt)
+                        :ARG2 (o / other)))))
+
+# ::id bolt12_64556_5611.1 ::date 2012-12-03T15:18:53 ::annotator SDL-AMR-09 ::preferred
+# ::snt China can not be so " Doctrine of the Mean"~
+# ::save-date Sun Dec 8, 2013 ::file bolt12_64556_5611_1.txt
+(p / possible-01 :polarity -
+      :ARG1 (t2 / thing :wiki "Doctrine_of_the_Mean"
+            :name (n2 / name :op1 "Doctrine" :op2 "of" :op3 "the" :op4 "Mean")
+            :degree (s / so)
+            :domain (c / country :wiki "China"
+                  :name (n / name :op1 "China"))))
+
+# ::id bolt12_64556_5612.1 ::date 2012-12-03T15:22:55 ::annotator SDL-AMR-09 ::preferred
+# ::snt If we greatly value making peace with wolves, we will pay a painful price!
+# ::save-date Sun Jun 21, 2015 ::file bolt12_64556_5612_1.txt
+(p / pay-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG2-of (p2 / price-01
+                  :ARG0-of (p3 / pain-01)))
+      :condition (v / value-02
+            :ARG0 w
+            :ARG1 (m / make-18
+                  :ARG0 w
+                  :ARG1 (p4 / peace)
+                  :prep-with (w2 / wolf))
+            :degree (g / great)))
+
+# ::id bolt12_64556_5612.2 ::date 2012-12-03T15:25:40 ::annotator SDL-AMR-09 ::preferred
+# ::snt If we act like a turtle, will the various powers let us off? It's time to abolish cultural troupes and sports teams! Use the funds on the front-line of defense.
+# ::save-date Thu Dec 17, 2015 ::file bolt12_64556_5612_2.txt
+(m / multi-sentence
+      :snt1 (l / let-01 :mode interrogative
+            :ARG0 (p / power
+                  :mod (v / various))
+            :ARG1 (w / we
+                  :mod (o / off))
+            :condition (a / act-01
+                  :ARG0 w
+                  :ARG1 (t / turtle)))
+      :snt2 (t2 / time
+            :time-of (a2 / abolish-01
+                  :ARG1 (a3 / and
+                        :op1 (t3 / troupe
+                              :mod (c / culture))
+                        :op2 (t4 / team
+                              :mod (s / sport)))))
+      :snt3 (u2 / use-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (f / fund)
+            :ARG2 (l2 / line
+                  :mod (d / defend-01)
+                  :mod (f2 / front))))
+
+# ::id bolt12_64556_5612.3 ::date 2012-12-03T15:35:55 ::annotator SDL-AMR-09 ::preferred
+# ::snt Looking the territorial seas with smoke of beacon-fires up everywhere, what can being a great sports and arts nation accomplish?
+# ::save-date Thu Dec 18, 2014 ::file bolt12_64556_5612_3.txt
+(p / possible-01
+      :ARG1 (a3 / accomplish-01
+            :ARG0 (n / nation
+                  :mod (s / sport)
+                  :mod (a2 / art)
+                  :mod (g / great))
+            :ARG1 (a4 / amr-unknown))
+      :condition (l / look-01
+            :ARG1 (s2 / sea
+                  :location (t / territory)
+                  :prep-with (s3 / smoke
+                        :source (f / fire
+                              :mod (b / beacon))
+                        :location (e / everywhere)
+                        :location (u / up)))))
+
+# ::id bolt12_64556_5612.4 ::date 2012-12-03T15:39:20 ::annotator SDL-AMR-09 ::preferred
+# ::snt It's time to wake up! The wrong thinking and policies of high-level decision-making should be amended
+# ::save-date Fri Jan 29, 2016 ::file bolt12_64556_5612_4.txt
+(m / multi-sentence
+      :snt1 (t / time
+            :time-of (w2 / wake-up-02))
+      :snt2 (r / recommend-01
+            :ARG1 (a / amend-01
+                  :ARG1 (a2 / and
+                        :op1 (t3 / think-01
+                              :ARG2-of (w / wrong-04))
+                        :op2 (p / policy-01
+                              :ARG1 (d / decide-01
+                                    :mod (l / level
+                                          :ARG1-of (h / high-02))))))))
+
+# ::id bolt12_64556_5612.5 ::date 2012-12-03T15:42:46 ::annotator SDL-AMR-09 ::preferred
+# ::snt We should put our efforts to developing science and technology; we will be beaten if left behind; use the limited military expenses on commanders and soldiers on the front line!
+# ::save-date Thu Jan 21, 2016 ::file bolt12_64556_5612_5.txt
+(m / multi-sentence
+      :snt1 (r / recommend-01
+            :ARG1 (p / put-01
+                  :ARG0 w
+                  :ARG1 (e / effort-01
+                        :ARG0 w)
+                  :ARG2 (d / develop-02
+                        :ARG0 w
+                        :ARG1 (a / and
+                              :op1 (s / science)
+                              :op2 (t / technology))))
+            :ARG2 (w / we))
+      :snt2 (b / beat-03
+            :ARG1 (w2 / we)
+            :condition (l / leave-behind-18
+                  :ARG1 w2))
+      :snt3 (u / use-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (m3 / monetary-quantity
+                  :ARG1-of (e2 / expend-01
+                        :ARG2 (m4 / military))
+                  :ARG1-of (l2 / limit-01))
+            :ARG2 (a2 / and
+                  :op2 (p2 / person
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (c2 / commander)))
+                  :op2 (p3 / person
+                        :ARG0-of (h2 / have-org-role-91
+                              :ARG2 (s2 / soldier)))
+                  :location (l3 / line
+                        :mod (f / front)))))
+
+# ::id bolt12_64556_5613.1 ::date 2012-12-03T15:44:53 ::annotator SDL-AMR-09 ::preferred
+# ::snt Mister, if the Diaoyu Islands are ours, please prove it with actions
+# ::save-date Fri Oct 16, 2015 ::file bolt12_64556_5613_1.txt
+(s / say-01
+      :ARG0 (i3 / i)
+      :ARG1 (p2 / prove-01 :polite + :mode imperative
+            :ARG0 m
+            :ARG1 w
+            :manner (a / act-02
+                  :ARG0 m)
+            :condition (o / own-01
+                  :ARG0 (w / we)
+                  :ARG1 (i2 / island :wiki "Senkaku_Islands" :name (n2 / name :op1 "Diaoyu" :op2 "Islands"))))
+      :ARG2 (m / mister))
+
+# ::id bolt12_64556_5614.1 ::date 2012-12-03T15:47:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt Quoting the post of Xiao Jianjia (277703234) at 10:10:11 on September 11th, 2010, Saturday
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64556_5614_1.txt
+(q / quote-01
+      :ARG2 (t / thing :mod 277703234
+            :ARG1-of (p / post-01
+                  :ARG0 (p2 / person :wiki -
+                        :name (n / name :op1 "Xiao" :op2 "Jianjia"))
+                  :time (d / date-entity :month 9 :day 11 :year 2010 :time "10:10:11"
+                        :weekday (s / saturday)))))
+
+# ::id bolt12_64556_5614.2 ::date 2012-12-03T15:51:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt China can not be so " Doctrine of the Mean"~
+# ::save-date Wed Nov 27, 2013 ::file bolt12_64556_5614_2.txt
+(t2 / thing :wiki "Doctrine_of_the_Mean"
+      :name (n2 / name :op1 "Doctrine" :op2 "of" :op3 "the" :op4 "Mean")
+      :degree (s / so)
+      :ARG1-of (p / possible-01 :polarity -)
+      :domain (c / country :wiki "China"
+            :name (n / name :op1 "China")))
+
+# ::id bolt12_64556_5614.3 ::date 2012-12-03T15:51:57 ::annotator SDL-AMR-09 ::preferred
+# ::snt This is worth pondering a little!
+# ::save-date Wed Jan 20, 2016 ::file bolt12_64556_5614_3.txt
+(w / worth-02
+      :ARG1 t
+      :ARG2 (p / ponder-01
+            :ARG1 (t / this)
+            :mod (l / little)))
